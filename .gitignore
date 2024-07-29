@@ -4,6 +4,7 @@
 *.gbr
 *.blend
 *.lck
+*.drl
 imager
 sketch.json
 keyboard-backups
