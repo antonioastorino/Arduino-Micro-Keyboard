@@ -3,6 +3,7 @@
 *.drk
 *.gbr
 *.blend
+*.lck
 imager
 sketch.json
 keyboard-backups
