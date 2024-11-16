@@ -374,6 +374,176 @@
 				)
 			)
 		)
+		(symbol "Diode:1N4148W-JLC"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148W"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C81598"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148W-JLC_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148W-JLC_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "keyboard:Gateron_ks_27"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -387,7 +557,7 @@
 				)
 			)
 			(property "Value" "Gateron_ks_27"
-				(at 5.08 -5.08 0)
+				(at 5.588 6.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -475,42 +645,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -618,184 +752,180 @@
 		)
 	)
 	(junction
-		(at 292.1 132.08)
+		(at 107.95 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "04821506-d748-435d-8533-ff36a38ecad8")
+		(uuid "030d6e0d-8efd-4cb2-9fa4-ca10a9b0bffb")
 	)
 	(junction
-		(at 215.9 195.58)
+		(at 205.74 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0b61cc2c-1f12-4952-8c68-71b0d15df594")
+		(uuid "047706fa-c759-4d13-af6d-ccea95ecf40f")
 	)
 	(junction
-		(at 149.86 195.58)
+		(at 245.11 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0b74246b-b6f3-4d3c-a2d8-42b04ae6b1a1")
+		(uuid "1cc01c79-c150-4fae-8401-664f793bd687")
 	)
 	(junction
-		(at 215.9 163.83)
+		(at 172.72 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1298dcf4-2ebc-4546-86e8-878694ff80f2")
+		(uuid "2e669ef7-4ebf-40df-9548-8c7b83b34a39")
 	)
 	(junction
-		(at 118.11 132.08)
+		(at 172.72 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "260e2d9d-8a98-4517-8559-64cdad6e70a9")
+		(uuid "36a5bc4b-ebc7-4bb7-934b-798ac013437b")
 	)
 	(junction
-		(at 182.88 195.58)
+		(at 139.7 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "316744e6-c7e9-4074-88fa-fb48bcdde30b")
+		(uuid "3ca53933-586a-49bd-a1a0-233fdece7120")
 	)
 	(junction
-		(at 255.27 163.83)
+		(at 204.47 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "350adfa2-04e2-4247-9d12-3244189d7b68")
+		(uuid "4cfbde12-8e9f-4728-96f9-24bfa749b161")
 	)
 	(junction
-		(at 149.86 227.33)
+		(at 107.95 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "368476f1-c68f-4245-848f-38d7c4a77d86")
+		(uuid "4ed46b78-9c2e-4456-b41e-d8697ca36660")
 	)
 	(junction
-		(at 255.27 195.58)
+		(at 107.95 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "38a8d12a-4fbe-4b79-9961-e2894cb590af")
+		(uuid "6101ee79-08fa-4123-ab72-d09a8b04bd5f")
 	)
 	(junction
-		(at 149.86 132.08)
+		(at 276.86 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "44435af8-d264-484f-b609-a2d53c47bb5a")
+		(uuid "660f3b09-bc6c-42c0-9aff-f64d287bba79")
 	)
 	(junction
-		(at 182.88 163.83)
+		(at 76.2 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "55de5e2b-8b6a-4bfe-8c55-3236518d3a27")
+		(uuid "71b207cd-bdd8-4a3e-82e1-c74519f8c09d")
 	)
 	(junction
-		(at 87.63 227.33)
+		(at 237.49 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "77871392-402b-4e14-87ed-cb0a5762a3f9")
+		(uuid "99bb8c5d-704a-450c-a304-07d4e71f98d2")
 	)
 	(junction
-		(at 215.9 132.08)
+		(at 302.26 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7a04ee68-2cb2-4d57-bde2-fd55026cbecb")
+		(uuid "9a86ce7e-df02-4c9a-8727-a7cd61a50fed")
 	)
 	(junction
-		(at 149.86 163.83)
+		(at 237.49 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7e4361f2-5bda-4df2-a6e0-333905e7a31f")
+		(uuid "a2922938-789c-4a5d-ae15-29e0ee3fb42d")
 	)
 	(junction
-		(at 255.27 227.33)
+		(at 107.95 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "829e5aeb-6cb0-4eff-82c2-21365bb586a6")
+		(uuid "adef679d-b50a-42a9-bd0a-800ccad58e83")
 	)
 	(junction
-		(at 292.1 163.83)
+		(at 205.74 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "85e0e398-4d92-4cbc-8b8a-22b16bd9334d")
+		(uuid "c134b5e6-4166-4535-9ac3-277bdaaea917")
 	)
 	(junction
-		(at 292.1 227.33)
+		(at 270.51 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "86d0f49c-5910-4b11-ba92-b05b61d0ac51")
+		(uuid "c71356c6-cdf2-4ca4-b7b0-16447e316619")
 	)
 	(junction
-		(at 87.63 195.58)
+		(at 172.72 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8e343fa8-6579-4d94-b123-8959018f381e")
+		(uuid "c780f2fb-1bef-4db4-8225-c6396c79fab4")
 	)
 	(junction
-		(at 215.9 227.33)
+		(at 172.72 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a0bf5e84-b92d-48a0-a6dd-79b0b3f8416f")
+		(uuid "ca6fa31b-e0ae-4e39-97da-ba9ed99a9932")
 	)
 	(junction
-		(at 292.1 195.58)
+		(at 140.97 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a5d73e3c-d823-4ac9-8daf-42b6b9151b6e")
+		(uuid "cf868122-3d53-473e-989f-99b41585da87")
 	)
 	(junction
-		(at 255.27 132.08)
+		(at 139.7 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bbef8b20-d2b4-4f49-8e87-38fca8d4cc8e")
+		(uuid "d2ae0766-77d7-49a0-bb1b-5c2e65d3ad17")
 	)
 	(junction
-		(at 118.11 227.33)
+		(at 276.86 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bf014140-95e5-4687-9722-bc03d6f7cb53")
+		(uuid "dad5d1cf-d1a2-4c7a-be7f-7882ce89ef86")
 	)
 	(junction
-		(at 118.11 163.83)
+		(at 204.47 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c8170bd3-4259-4d67-8090-586e7252b2ad")
+		(uuid "ddea71ec-d588-4a41-a51a-0210d38a5087")
 	)
 	(junction
-		(at 182.88 132.08)
+		(at 76.2 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d62e5f1e-2336-4807-a3db-e19d33bfe3d7")
+		(uuid "e192f4e3-c735-45b9-8c17-da5b1630543d")
 	)
 	(junction
-		(at 182.88 227.33)
+		(at 245.11 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "edd1c1b4-a89c-42e1-96c0-a5645abb4361")
+		(uuid "ead8b944-cb34-4096-9788-980fc0fe726b")
 	)
 	(junction
-		(at 118.11 195.58)
+		(at 140.97 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fa0a8131-0b26-40cc-a2ff-136d4235c0c2")
+		(uuid "eb687a00-1ac8-4f3a-b549-f9b6c1015775")
+	)
+	(junction
+		(at 270.51 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1d5c7e6-240d-412e-9761-28d8215b391b")
 	)
 	(wire
 		(pts
-			(xy 149.86 227.33) (xy 118.11 227.33)
+			(xy 237.49 195.58) (xy 270.51 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "023137af-a289-4b2a-96af-eb8b9aba1c09")
+		(uuid "02ad38f3-453f-4372-852c-e161fd9b0b16")
 	)
 	(wire
 		(pts
-			(xy 245.11 148.59) (xy 245.11 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "035cb852-e1f9-453f-aa52-c9e73800c194")
-	)
-	(wire
-		(pts
-			(xy 139.7 116.84) (xy 139.7 119.38)
+			(xy 139.7 116.84) (xy 139.7 121.92)
 		)
 		(stroke
 			(width 0)
@@ -815,7 +945,47 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 148.59) (xy 107.95 151.13)
+			(xy 140.97 195.58) (xy 172.72 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0414bcea-0b75-4675-b82d-be7260bfa1cd")
+	)
+	(wire
+		(pts
+			(xy 205.74 227.33) (xy 237.49 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "044332cf-abf0-4462-a75c-572c709cf0a1")
+	)
+	(wire
+		(pts
+			(xy 107.95 193.04) (xy 107.95 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c823af-68cb-4207-b3f4-a59ee844f377")
+	)
+	(wire
+		(pts
+			(xy 237.49 180.34) (xy 237.49 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06354379-475e-4c43-95a4-e405d0989c48")
+	)
+	(wire
+		(pts
+			(xy 107.95 148.59) (xy 107.95 153.67)
 		)
 		(stroke
 			(width 0)
@@ -825,17 +995,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 132.08) (xy 182.88 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a2378a4-88d3-426f-8a39-bbd7a488f431")
-	)
-	(wire
-		(pts
-			(xy 281.94 116.84) (xy 281.94 119.38)
+			(xy 276.86 116.84) (xy 276.86 121.92)
 		)
 		(stroke
 			(width 0)
@@ -845,27 +1005,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 212.09) (xy 281.94 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c35de3d-4ff7-4975-bc4d-d5d820934040")
-	)
-	(wire
-		(pts
-			(xy 255.27 119.38) (xy 255.27 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c766b05-1947-4b9d-b1b1-07475150a0be")
-	)
-	(wire
-		(pts
-			(xy 323.85 180.34) (xy 331.47 180.34)
+			(xy 312.42 180.34) (xy 320.04 180.34)
 		)
 		(stroke
 			(width 0)
@@ -875,7 +1015,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 116.84) (xy 331.47 116.84)
+			(xy 320.04 116.84) (xy 327.66 116.84)
 		)
 		(stroke
 			(width 0)
@@ -895,17 +1035,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 214.63) (xy 215.9 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10c37df7-8aae-4a5a-a505-b9ad483df4ff")
-	)
-	(wire
-		(pts
-			(xy 299.72 116.84) (xy 299.72 111.76)
+			(xy 294.64 116.84) (xy 294.64 111.76)
 		)
 		(stroke
 			(width 0)
@@ -915,7 +1045,17 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 180.34) (xy 262.89 175.26)
+			(xy 139.7 163.83) (xy 172.72 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11633e6a-de45-4f8e-8c18-5033a72a216b")
+	)
+	(wire
+		(pts
+			(xy 255.27 180.34) (xy 255.27 175.26)
 		)
 		(stroke
 			(width 0)
@@ -925,7 +1065,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 180.34) (xy 299.72 180.34)
+			(xy 280.67 180.34) (xy 288.29 180.34)
 		)
 		(stroke
 			(width 0)
@@ -935,43 +1075,43 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 151.13) (xy 182.88 163.83)
+			(xy 76.2 193.04) (xy 76.2 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1803d0f6-ede5-408c-93c8-6a98631a5556")
+		(uuid "14383cd4-6993-4dc8-84e5-f3e11fcd09df")
 	)
 	(wire
 		(pts
-			(xy 149.86 119.38) (xy 149.86 132.08)
+			(xy 237.49 224.79) (xy 237.49 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1859f13c-e841-4408-a922-c57517f675f8")
+		(uuid "15110177-0fcc-488a-8266-b3fd5e66c918")
 	)
 	(wire
 		(pts
-			(xy 60.96 227.33) (xy 87.63 227.33)
+			(xy 204.47 129.54) (xy 204.47 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b447b89-ef55-41d8-aee9-60edca1d4749")
+		(uuid "1699bbef-0716-4200-a447-b86a32007c4f")
 	)
 	(wire
 		(pts
-			(xy 255.27 227.33) (xy 215.9 227.33)
+			(xy 270.51 224.79) (xy 270.51 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1bce2f3d-6d92-4cf8-84ce-5fc8c21e92af")
+		(uuid "173300a1-b5b9-4bb0-b1eb-3b93e7656c25")
 	)
 	(wire
 		(pts
@@ -995,13 +1135,33 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 214.63) (xy 118.11 227.33)
+			(xy 139.7 132.08) (xy 172.72 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "21aeb7a0-6c91-4049-9a25-0818cb2fbec9")
+		(uuid "1f97573d-4374-4d7a-aee8-eae8e8952c96")
+	)
+	(wire
+		(pts
+			(xy 270.51 195.58) (xy 302.26 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200bcb1f-c744-4748-8a70-c3206cb3f797")
+	)
+	(wire
+		(pts
+			(xy 245.11 129.54) (xy 245.11 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2240034d-e24e-499a-af5a-27851d98b541")
 	)
 	(wire
 		(pts
@@ -1015,33 +1175,13 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 195.58) (xy 292.1 195.58)
+			(xy 139.7 161.29) (xy 139.7 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "256c1f37-d645-47ff-aa60-943a48c9e432")
-	)
-	(wire
-		(pts
-			(xy 172.72 212.09) (xy 172.72 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26638d16-4862-4cf5-9ad5-7205c09924d8")
-	)
-	(wire
-		(pts
-			(xy 182.88 182.88) (xy 182.88 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26c15849-a8ec-4827-a41a-87f424f9930d")
+		(uuid "24d7a7f7-b55c-4c2f-9b95-72b3282508c5")
 	)
 	(wire
 		(pts
@@ -1055,27 +1195,27 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 148.59) (xy 205.74 151.13)
+			(xy 302.26 224.79) (xy 302.26 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ebbc3b6-50ab-427c-a972-109693ee32de")
+		(uuid "2e397522-55dc-408b-9603-83ac268ed633")
 	)
 	(wire
 		(pts
-			(xy 215.9 119.38) (xy 215.9 132.08)
+			(xy 140.97 193.04) (xy 140.97 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "314d4a25-3ef9-4de5-b92b-3723d77ffa4b")
+		(uuid "3040f4dd-b2f2-4232-8b26-765334a4f4ec")
 	)
 	(wire
 		(pts
-			(xy 149.86 180.34) (xy 157.48 180.34)
+			(xy 151.13 180.34) (xy 158.75 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1085,7 +1225,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 132.08) (xy 118.11 132.08)
+			(xy 60.96 132.08) (xy 107.95 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1095,13 +1235,23 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 116.84) (xy 331.47 111.76)
+			(xy 327.66 116.84) (xy 327.66 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "33e9798d-3d89-4b1b-85a9-49ec13fadb1a")
+	)
+	(wire
+		(pts
+			(xy 76.2 180.34) (xy 76.2 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3457579e-26db-47a4-9a7e-e33e690052b3")
 	)
 	(wire
 		(pts
@@ -1115,7 +1265,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 180.34) (xy 95.25 180.34)
+			(xy 86.36 180.34) (xy 93.98 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1125,17 +1275,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 151.13) (xy 323.85 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3907b815-6593-4040-b995-f9ccf99cb2f4")
-	)
-	(wire
-		(pts
-			(xy 172.72 180.34) (xy 172.72 182.88)
+			(xy 172.72 180.34) (xy 172.72 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1145,7 +1285,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 116.84) (xy 299.72 116.84)
+			(xy 287.02 116.84) (xy 294.64 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1155,17 +1295,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 119.38) (xy 292.1 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bb8e771-7a32-4ea5-8334-1dc57451353c")
-	)
-	(wire
-		(pts
-			(xy 223.52 116.84) (xy 223.52 111.76)
+			(xy 222.25 116.84) (xy 222.25 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1175,7 +1305,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 163.83) (xy 215.9 163.83)
+			(xy 60.96 163.83) (xy 107.95 163.83)
 		)
 		(stroke
 			(width 0)
@@ -1195,57 +1325,27 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 227.33) (xy 255.27 227.33)
+			(xy 276.86 129.54) (xy 276.86 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ec78ba1-a56e-4f20-86c6-038e8a700b5b")
+		(uuid "41ccae6d-a0cc-4bd1-aaf1-70c35985840f")
 	)
 	(wire
 		(pts
-			(xy 245.11 212.09) (xy 245.11 214.63)
+			(xy 237.49 193.04) (xy 237.49 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3fdf2177-0c9f-40e5-82b9-29a80bb9ac02")
+		(uuid "42253ab9-751a-44f7-8f0a-ddb6c4610fb5")
 	)
 	(wire
 		(pts
-			(xy 60.96 163.83) (xy 118.11 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4017ff88-8efa-4a8b-a2eb-53b6d434b9cb")
-	)
-	(wire
-		(pts
-			(xy 245.11 180.34) (xy 245.11 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40459166-7e46-4e6a-aea7-c9c24a75a933")
-	)
-	(wire
-		(pts
-			(xy 215.9 182.88) (xy 215.9 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43b0e301-b982-46b7-801b-869ab1854312")
-	)
-	(wire
-		(pts
-			(xy 255.27 180.34) (xy 262.89 180.34)
+			(xy 247.65 180.34) (xy 255.27 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1255,7 +1355,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 148.59) (xy 299.72 148.59)
+			(xy 287.02 148.59) (xy 294.64 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1265,13 +1365,33 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 195.58) (xy 182.88 195.58)
+			(xy 76.2 224.79) (xy 76.2 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47b04605-8deb-4469-bbf2-0179dd2f7f92")
+		(uuid "47d589dc-9e65-4d4b-b164-0651d0f1d9df")
+	)
+	(wire
+		(pts
+			(xy 204.47 163.83) (xy 245.11 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47db9fd0-6db7-4e30-acae-23005c56c18e")
+	)
+	(wire
+		(pts
+			(xy 107.95 129.54) (xy 107.95 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4873249d-3471-4254-91b1-77fed96f223a")
 	)
 	(wire
 		(pts
@@ -1285,7 +1405,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 212.09) (xy 205.74 214.63)
+			(xy 205.74 212.09) (xy 205.74 217.17)
 		)
 		(stroke
 			(width 0)
@@ -1295,7 +1415,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 212.09) (xy 157.48 207.01)
+			(xy 158.75 212.09) (xy 158.75 207.01)
 		)
 		(stroke
 			(width 0)
@@ -1305,7 +1425,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 116.84) (xy 172.72 119.38)
+			(xy 172.72 116.84) (xy 172.72 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1315,17 +1435,47 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 163.83) (xy 118.11 163.83)
+			(xy 107.95 227.33) (xy 140.97 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "527eebb9-6899-44e4-bc95-40b92b0ba41b")
+		(uuid "4c48dbb0-86c6-426d-85e4-e81dac9702fc")
 	)
 	(wire
 		(pts
-			(xy 215.9 116.84) (xy 223.52 116.84)
+			(xy 245.11 161.29) (xy 245.11 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d0249a2-c527-405c-86e9-7f86569f4342")
+	)
+	(wire
+		(pts
+			(xy 76.2 195.58) (xy 107.95 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d82a08f-dae5-4505-b81f-6b15301990d7")
+	)
+	(wire
+		(pts
+			(xy 302.26 193.04) (xy 302.26 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f44ed6d-18ec-4406-a2d3-5eff5e08d3f0")
+	)
+	(wire
+		(pts
+			(xy 214.63 116.84) (xy 222.25 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1335,33 +1485,33 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 180.34) (xy 77.47 182.88)
+			(xy 276.86 132.08) (xy 309.88 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53ecc250-311e-4c28-8e13-bf3519630000")
+		(uuid "542b8a55-730c-4a12-a2dc-e9763ca18cc2")
 	)
 	(wire
 		(pts
-			(xy 323.85 119.38) (xy 323.85 132.08)
+			(xy 139.7 129.54) (xy 139.7 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5893e40d-6c3d-4f5f-9956-e79d3c956d16")
+		(uuid "56b5c47c-303c-4573-b480-e07e72fc90e0")
 	)
 	(wire
 		(pts
-			(xy 149.86 151.13) (xy 149.86 163.83)
+			(xy 309.88 161.29) (xy 309.88 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59427b0e-16ed-45d5-b14f-bb0bb6313b1c")
+		(uuid "591fe202-709f-46ba-9001-2eb57da7ca04")
 	)
 	(wire
 		(pts
@@ -1375,7 +1525,37 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 212.09) (xy 331.47 212.09)
+			(xy 302.26 212.09) (xy 302.26 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7fecb4-911c-4d76-90ac-170b202b5753")
+	)
+	(wire
+		(pts
+			(xy 107.95 224.79) (xy 107.95 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c7b8fb2-5cbb-49b5-b38d-7e35f762bf9e")
+	)
+	(wire
+		(pts
+			(xy 204.47 116.84) (xy 204.47 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2eee8e-10a2-47b4-a246-96a3d9f0651b")
+	)
+	(wire
+		(pts
+			(xy 312.42 212.09) (xy 320.04 212.09)
 		)
 		(stroke
 			(width 0)
@@ -1395,17 +1575,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 151.13) (xy 215.9 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ed9844c-542e-4b53-84c5-4d9f9862300c")
-	)
-	(wire
-		(pts
-			(xy 215.9 227.33) (xy 182.88 227.33)
+			(xy 60.96 227.33) (xy 76.2 227.33)
 		)
 		(stroke
 			(width 0)
@@ -1415,13 +1585,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 195.58) (xy 118.11 195.58)
+			(xy 245.11 132.08) (xy 276.86 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63e6bf45-ac9a-49a7-9306-d4ea89618021")
+		(uuid "614c9eaf-99ed-4ff8-8757-c08f7bff8d84")
 	)
 	(wire
 		(pts
@@ -1432,6 +1602,16 @@
 			(type default)
 		)
 		(uuid "64999ade-564e-4ae9-a1b4-2d42e2519e82")
+	)
+	(wire
+		(pts
+			(xy 276.86 161.29) (xy 276.86 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b4a250-387d-414e-b67c-3f5b26a73232")
 	)
 	(wire
 		(pts
@@ -1455,23 +1635,33 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 212.09) (xy 313.69 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66844beb-ef70-4cba-b9af-de7e354d4849")
-	)
-	(wire
-		(pts
-			(xy 281.94 180.34) (xy 281.94 182.88)
+			(xy 270.51 180.34) (xy 270.51 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "668aeaae-ffda-4876-b745-da5a0ba0c8ee")
+	)
+	(wire
+		(pts
+			(xy 140.97 180.34) (xy 140.97 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "671b768b-917d-4ca8-a569-9655346c9d20")
+	)
+	(wire
+		(pts
+			(xy 172.72 161.29) (xy 172.72 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "683fdcbe-afaa-4b2d-a863-caccdea1af21")
 	)
 	(wire
 		(pts
@@ -1485,33 +1675,53 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 212.09) (xy 139.7 214.63)
+			(xy 270.51 227.33) (xy 302.26 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "707d47ad-b2a4-4d0e-b267-08cc744ae52c")
+		(uuid "6924dfdf-61f6-49df-8774-b732b7fcda93")
 	)
 	(wire
 		(pts
-			(xy 292.1 214.63) (xy 292.1 227.33)
+			(xy 107.95 163.83) (xy 139.7 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7147601f-1e75-4009-8453-6ca16a85dda9")
+		(uuid "69cf9df8-1b6e-4ef2-b7d7-72ec00fa8208")
 	)
 	(wire
 		(pts
-			(xy 313.69 116.84) (xy 313.69 119.38)
+			(xy 245.11 163.83) (xy 276.86 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ef68d41-f8b3-4512-a104-dc3e25a7defd")
+	)
+	(wire
+		(pts
+			(xy 309.88 116.84) (xy 309.88 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "71f1e6a7-f114-42ee-9fce-3f173e45caaf")
+	)
+	(wire
+		(pts
+			(xy 172.72 132.08) (xy 204.47 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7406cc7b-c79e-4180-a178-1ee73744fd5e")
 	)
 	(wire
 		(pts
@@ -1525,47 +1735,37 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 119.38) (xy 182.88 132.08)
+			(xy 172.72 195.58) (xy 205.74 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "774aeac5-e803-45bf-a9fe-5679c3482ed9")
+		(uuid "796a0c66-2b0f-44a6-88bf-3a09101efcb1")
 	)
 	(wire
 		(pts
-			(xy 323.85 227.33) (xy 292.1 227.33)
+			(xy 172.72 227.33) (xy 205.74 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78f8b8db-b1ac-4154-bca2-338a1d7f51a8")
+		(uuid "811ca44e-ba09-4d1c-991e-5d5a757121f4")
 	)
 	(wire
 		(pts
-			(xy 87.63 182.88) (xy 87.63 195.58)
+			(xy 140.97 224.79) (xy 140.97 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79d10485-f420-4331-a877-60699d94233f")
+		(uuid "8239d447-4c84-4414-b643-88bf99f7c566")
 	)
 	(wire
 		(pts
-			(xy 182.88 214.63) (xy 182.88 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "808cea74-edcf-4e30-9ea5-d5a68b36f948")
-	)
-	(wire
-		(pts
-			(xy 255.27 195.58) (xy 215.9 195.58)
+			(xy 60.96 195.58) (xy 76.2 195.58)
 		)
 		(stroke
 			(width 0)
@@ -1585,23 +1785,43 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 214.63) (xy 149.86 227.33)
+			(xy 172.72 163.83) (xy 204.47 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "851fcb12-802e-4932-9145-7420b899a049")
+		(uuid "878bb251-4f99-4ec9-a72e-a92a171503b3")
 	)
 	(wire
 		(pts
-			(xy 262.89 212.09) (xy 262.89 207.01)
+			(xy 255.27 212.09) (xy 255.27 207.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "883f5bfa-b3d3-4f02-8723-bd518c4334b9")
+	)
+	(wire
+		(pts
+			(xy 270.51 212.09) (xy 270.51 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d1d958-daac-4986-8be0-9f89d109612e")
+	)
+	(wire
+		(pts
+			(xy 172.72 129.54) (xy 172.72 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "895916bb-27c3-4b0d-99b2-5b33323fdffe")
 	)
 	(wire
 		(pts
@@ -1615,13 +1835,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 116.84) (xy 107.95 119.38)
+			(xy 204.47 148.59) (xy 204.47 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ee4d20e-b5fb-4696-8923-65ba4d3f61ad")
+		(uuid "8b67dc82-5976-418d-af15-ceebe08f0fba")
 	)
 	(wire
 		(pts
@@ -1635,16 +1855,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 151.13) (xy 118.11 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9299c19c-93be-4d98-8230-21f0b06e0c4c")
-	)
-	(wire
-		(pts
 			(xy 190.5 212.09) (xy 190.5 207.01)
 		)
 		(stroke
@@ -1655,17 +1865,17 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 163.83) (xy 292.1 163.83)
+			(xy 302.26 195.58) (xy 323.85 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99d678b8-9b42-490e-a1ad-447982558b0b")
+		(uuid "96b58f05-7b84-4ec7-b733-cbcd0ceb831d")
 	)
 	(wire
 		(pts
-			(xy 77.47 210.82) (xy 77.47 213.36)
+			(xy 76.2 210.82) (xy 76.2 217.17)
 		)
 		(stroke
 			(width 0)
@@ -1685,7 +1895,17 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 148.59) (xy 313.69 151.13)
+			(xy 245.11 148.59) (xy 245.11 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ca79779-5e52-46da-8478-63c03f38a694")
+	)
+	(wire
+		(pts
+			(xy 309.88 148.59) (xy 309.88 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1695,37 +1915,57 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 195.58) (xy 255.27 195.58)
+			(xy 309.88 129.54) (xy 309.88 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d95b73c-1212-41c5-b6cd-154567c3d86b")
+		(uuid "9ce8e2bf-7017-4906-906e-221ac313bbad")
 	)
 	(wire
 		(pts
-			(xy 292.1 182.88) (xy 292.1 195.58)
+			(xy 205.74 193.04) (xy 205.74 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9eeeb233-6119-4fe7-8f59-62aaffcc6743")
+		(uuid "9ee8ce39-84a8-4800-af84-fdde1957e050")
 	)
 	(wire
 		(pts
-			(xy 215.9 163.83) (xy 182.88 163.83)
+			(xy 107.95 161.29) (xy 107.95 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2792492-2e42-40a0-8b5c-129eaa5c8c5a")
+		(uuid "a5fd9fb3-a7e3-4e29-aaa8-2f136f0b42b7")
 	)
 	(wire
 		(pts
-			(xy 157.48 180.34) (xy 157.48 175.26)
+			(xy 172.72 193.04) (xy 172.72 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a77a5290-29ef-41ef-9b13-152d444398d9")
+	)
+	(wire
+		(pts
+			(xy 245.11 116.84) (xy 245.11 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a844ec6a-2af2-4fd9-ae1a-25dc201c26b3")
+	)
+	(wire
+		(pts
+			(xy 158.75 180.34) (xy 158.75 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1745,7 +1985,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 148.59) (xy 223.52 143.51)
+			(xy 222.25 148.59) (xy 222.25 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1755,7 +1995,17 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 132.08) (xy 255.27 132.08)
+			(xy 204.47 132.08) (xy 245.11 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa8523c3-351a-458f-9be7-97ee43f8d23a")
+	)
+	(wire
+		(pts
+			(xy 107.95 132.08) (xy 139.7 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1765,7 +2015,27 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 148.59) (xy 281.94 151.13)
+			(xy 204.47 161.29) (xy 204.47 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1b31ce-4ef9-4b1b-9397-39ed2b2508e1")
+	)
+	(wire
+		(pts
+			(xy 270.51 193.04) (xy 270.51 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5aeee9-e996-4834-8c01-5f101c6cbf50")
+	)
+	(wire
+		(pts
+			(xy 276.86 148.59) (xy 276.86 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1775,17 +2045,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 119.38) (xy 118.11 132.08)
+			(xy 140.97 227.33) (xy 172.72 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "afd22036-8316-41b2-ae9c-102e84a96e49")
+		(uuid "b09384c0-ebc1-478d-86d3-0bef70b15f03")
 	)
 	(wire
 		(pts
-			(xy 331.47 212.09) (xy 331.47 207.01)
+			(xy 320.04 212.09) (xy 320.04 207.01)
 		)
 		(stroke
 			(width 0)
@@ -1795,17 +2065,27 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 116.84) (xy 245.11 119.38)
+			(xy 302.26 180.34) (xy 302.26 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7005b84-d2eb-4d86-bad4-73ad987326b5")
+		(uuid "b69a9a29-c0f5-4ae3-8757-8c9149e7508c")
 	)
 	(wire
 		(pts
-			(xy 292.1 212.09) (xy 299.72 212.09)
+			(xy 140.97 212.09) (xy 140.97 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6fa83b2-d62f-42ab-ae62-e271e0085b35")
+	)
+	(wire
+		(pts
+			(xy 280.67 212.09) (xy 288.29 212.09)
 		)
 		(stroke
 			(width 0)
@@ -1825,6 +2105,26 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 227.33) (xy 270.51 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb52923e-475d-4d3a-a0de-42e4ebc4e397")
+	)
+	(wire
+		(pts
+			(xy 107.95 195.58) (xy 140.97 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb7c2987-2be3-4de9-a1ef-d1706b0497aa")
+	)
+	(wire
+		(pts
 			(xy 149.86 116.84) (xy 157.48 116.84)
 		)
 		(stroke
@@ -1835,27 +2135,17 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 182.88) (xy 323.85 195.58)
+			(xy 107.95 116.84) (xy 107.95 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd8206df-f808-41e1-a2fe-1e2b5741be6e")
+		(uuid "bce3aea4-caaa-448f-b36e-516503ac10b3")
 	)
 	(wire
 		(pts
-			(xy 149.86 195.58) (xy 118.11 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf3251ca-19c4-4f93-9e11-fc41f9acc49a")
-	)
-	(wire
-		(pts
-			(xy 299.72 148.59) (xy 299.72 143.51)
+			(xy 294.64 148.59) (xy 294.64 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1865,37 +2155,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 182.88) (xy 149.86 195.58)
+			(xy 205.74 224.79) (xy 205.74 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c347b870-c26c-48f8-9218-5517ca9a7467")
+		(uuid "c3d1b877-933d-42ca-8af3-7851d1525871")
 	)
 	(wire
 		(pts
-			(xy 149.86 227.33) (xy 182.88 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c44ee84e-0ea8-4ada-92cc-1dae447dcde7")
-	)
-	(wire
-		(pts
-			(xy 60.96 195.58) (xy 87.63 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c51ebc34-caf5-4bb5-a2bb-e70bbff3f727")
-	)
-	(wire
-		(pts
-			(xy 149.86 212.09) (xy 157.48 212.09)
+			(xy 151.13 212.09) (xy 158.75 212.09)
 		)
 		(stroke
 			(width 0)
@@ -1905,17 +2175,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 182.88) (xy 118.11 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7dea445-3600-4fa6-82df-d5f86fd9869b")
-	)
-	(wire
-		(pts
-			(xy 255.27 212.09) (xy 262.89 212.09)
+			(xy 247.65 212.09) (xy 255.27 212.09)
 		)
 		(stroke
 			(width 0)
@@ -1925,17 +2185,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 116.84) (xy 205.74 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca23c981-00ce-43c4-b0ec-c33408ad5c6b")
-	)
-	(wire
-		(pts
-			(xy 331.47 148.59) (xy 331.47 143.51)
+			(xy 327.66 148.59) (xy 327.66 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1945,7 +2195,17 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 180.34) (xy 299.72 175.26)
+			(xy 172.72 224.79) (xy 172.72 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccbda51c-dcf2-48ee-95cb-3f4c9b523eb6")
+	)
+	(wire
+		(pts
+			(xy 288.29 180.34) (xy 288.29 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1955,7 +2215,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 180.34) (xy 331.47 175.26)
+			(xy 320.04 180.34) (xy 320.04 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1965,7 +2225,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 210.82) (xy 95.25 210.82)
+			(xy 86.36 210.82) (xy 93.98 210.82)
 		)
 		(stroke
 			(width 0)
@@ -1975,33 +2235,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 163.83) (xy 182.88 163.83)
+			(xy 237.49 212.09) (xy 237.49 217.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d094255f-8a6d-45c5-a435-fc0e22d9cfa7")
-	)
-	(wire
-		(pts
-			(xy 292.1 163.83) (xy 255.27 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4e49163-1a32-47e9-a77a-1ea8d360329b")
-	)
-	(wire
-		(pts
-			(xy 87.63 227.33) (xy 118.11 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7b6c19d-a87a-4be3-960f-22242978f346")
+		(uuid "d877e7cb-d316-46bd-8f3a-d87759da07ff")
 	)
 	(wire
 		(pts
@@ -2015,16 +2255,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 132.08) (xy 292.1 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbfc8ef3-6614-4cc4-9f92-06729caeea95")
-	)
-	(wire
-		(pts
 			(xy 190.5 180.34) (xy 190.5 175.26)
 		)
 		(stroke
@@ -2035,23 +2265,13 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 148.59) (xy 331.47 148.59)
+			(xy 320.04 148.59) (xy 327.66 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dca176ee-5e8a-4734-9e50-d66eac4715ce")
-	)
-	(wire
-		(pts
-			(xy 255.27 214.63) (xy 255.27 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd3a1722-c6d9-49b2-a02d-d3786964d5d5")
 	)
 	(wire
 		(pts
@@ -2065,37 +2285,17 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 182.88) (xy 255.27 195.58)
+			(xy 172.72 212.09) (xy 172.72 217.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e415ccdb-d95a-466e-a599-d72a12c37c61")
+		(uuid "e386f37e-0594-42b5-b712-596a8cd7f853")
 	)
 	(wire
 		(pts
-			(xy 313.69 180.34) (xy 313.69 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4f1e99b-b645-4977-a998-10f87a5c42fe")
-	)
-	(wire
-		(pts
-			(xy 107.95 212.09) (xy 107.95 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e52057b0-dc9c-4e81-ab51-b7f36e2a298f")
-	)
-	(wire
-		(pts
-			(xy 215.9 148.59) (xy 223.52 148.59)
+			(xy 214.63 148.59) (xy 222.25 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2105,17 +2305,17 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 195.58) (xy 182.88 195.58)
+			(xy 205.74 195.58) (xy 237.49 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e86f5fcc-460f-4dc9-9f02-797c0e5d34e3")
+		(uuid "e73ed23e-767e-4c18-8b42-1945c8455174")
 	)
 	(wire
 		(pts
-			(xy 107.95 180.34) (xy 107.95 182.88)
+			(xy 107.95 180.34) (xy 107.95 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2125,17 +2325,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 213.36) (xy 87.63 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed5a89b1-8709-48fd-b411-946f74be29a6")
-	)
-	(wire
-		(pts
-			(xy 172.72 148.59) (xy 172.72 151.13)
+			(xy 172.72 148.59) (xy 172.72 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2145,17 +2335,17 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 132.08) (xy 182.88 132.08)
+			(xy 276.86 163.83) (xy 309.88 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee7e7fbd-2678-4c3f-b849-7a705f910c40")
+		(uuid "ee6a2a76-7730-487a-bc9f-341891f739ad")
 	)
 	(wire
 		(pts
-			(xy 139.7 148.59) (xy 139.7 151.13)
+			(xy 139.7 148.59) (xy 139.7 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2175,6 +2365,26 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 212.09) (xy 107.95 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4694c88-d115-4f6c-b7ed-faba8c5580c4")
+	)
+	(wire
+		(pts
+			(xy 76.2 227.33) (xy 107.95 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b1efda-2ad9-4f12-a8f4-17abe39f2938")
+	)
+	(wire
+		(pts
 			(xy 118.11 180.34) (xy 125.73 180.34)
 		)
 		(stroke
@@ -2182,16 +2392,6 @@
 			(type default)
 		)
 		(uuid "f619d3a4-d941-40fc-b060-1eb575d6d91a")
-	)
-	(wire
-		(pts
-			(xy 292.1 151.13) (xy 292.1 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6214426-616a-460e-8835-bdc5388bc33a")
 	)
 	(wire
 		(pts
@@ -2205,27 +2405,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 151.13) (xy 255.27 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f72f725b-0289-4efe-a525-17234fe4897a")
-	)
-	(wire
-		(pts
-			(xy 149.86 132.08) (xy 118.11 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7419628-9a5e-4b02-bcde-5e8085008990")
-	)
-	(wire
-		(pts
-			(xy 95.25 180.34) (xy 95.25 175.26)
+			(xy 93.98 180.34) (xy 93.98 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2235,7 +2415,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 212.09) (xy 299.72 207.01)
+			(xy 288.29 212.09) (xy 288.29 207.01)
 		)
 		(stroke
 			(width 0)
@@ -2245,7 +2425,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 210.82) (xy 95.25 205.74)
+			(xy 93.98 210.82) (xy 93.98 205.74)
 		)
 		(stroke
 			(width 0)
@@ -2265,7 +2445,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 180.34) (xy 205.74 182.88)
+			(xy 205.74 180.34) (xy 205.74 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2273,39 +2453,9 @@
 		)
 		(uuid "fd13b016-9435-4b53-9309-62b7f63fdd29")
 	)
-	(wire
-		(pts
-			(xy 255.27 132.08) (xy 215.9 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd29792c-2e9d-4121-8e90-800b1b163a36")
-	)
-	(wire
-		(pts
-			(xy 323.85 214.63) (xy 323.85 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd52c882-5bb2-4e8f-a1a6-337d5c309ad9")
-	)
-	(wire
-		(pts
-			(xy 139.7 180.34) (xy 139.7 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff066412-7964-4c00-bd39-4d81fd25f9be")
-	)
 	(global_label "COL5"
 		(shape output)
-		(at 223.52 111.76 90)
+		(at 222.25 111.76 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2315,7 +2465,7 @@
 		)
 		(uuid "03ee3b19-c9d0-4e8c-9242-addba7fbf0e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.4406 104.5088 90)
+			(at 222.1706 104.5088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,7 +2543,7 @@
 	)
 	(global_label "COL7"
 		(shape output)
-		(at 299.72 143.51 90)
+		(at 294.64 143.51 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2403,7 +2553,7 @@
 		)
 		(uuid "2e0e3913-a3ba-4d98-a1fa-70bac02e896b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 299.6406 136.2588 90)
+			(at 294.5606 136.2588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2481,7 +2631,7 @@
 	)
 	(global_label "COL8"
 		(shape output)
-		(at 331.47 207.01 90)
+		(at 320.04 207.01 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2491,7 +2641,7 @@
 		)
 		(uuid "49dbb1f6-ccc3-4491-afe1-d5f4e2502d62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 331.3906 199.7588 90)
+			(at 319.9606 199.7588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +2653,7 @@
 	)
 	(global_label "COL8"
 		(shape output)
-		(at 331.47 143.51 90)
+		(at 327.66 143.51 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2513,7 +2663,7 @@
 		)
 		(uuid "503ca7f0-8f79-4ff7-874d-8ca20a48281b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 331.3906 136.2588 90)
+			(at 327.5806 136.2588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,7 +2741,7 @@
 	)
 	(global_label "COL8"
 		(shape output)
-		(at 331.47 175.26 90)
+		(at 320.04 175.26 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2601,7 +2751,7 @@
 		)
 		(uuid "57745db6-dd2d-402c-b9bd-319d87f27b9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 331.3906 168.0088 90)
+			(at 319.9606 168.0088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +2763,7 @@
 	)
 	(global_label "COL7"
 		(shape output)
-		(at 299.72 207.01 90)
+		(at 288.29 207.01 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2623,7 +2773,7 @@
 		)
 		(uuid "59c8844b-e572-4029-816c-0f6e063f7a2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 299.6406 199.7588 90)
+			(at 288.2106 199.7588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,7 +2785,7 @@
 	)
 	(global_label "COL7"
 		(shape output)
-		(at 299.72 111.76 90)
+		(at 294.64 111.76 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2645,7 +2795,7 @@
 		)
 		(uuid "5bd09885-36ff-4c7c-a58b-2e0711bdb756")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 299.6406 104.5088 90)
+			(at 294.5606 104.5088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +2829,7 @@
 	)
 	(global_label "COL3"
 		(shape output)
-		(at 157.48 207.01 90)
+		(at 158.75 207.01 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2689,7 +2839,7 @@
 		)
 		(uuid "5c6da0b3-7b67-4de9-a848-f76ca0742991")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.4006 199.7588 90)
+			(at 158.6706 199.7588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +2851,7 @@
 	)
 	(global_label "COL3"
 		(shape output)
-		(at 157.48 175.26 90)
+		(at 158.75 175.26 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2711,7 +2861,7 @@
 		)
 		(uuid "60d42996-ec0b-41b6-bbde-7c7f6b627d6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.4006 168.0088 90)
+			(at 158.6706 168.0088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,7 +2895,7 @@
 	)
 	(global_label "COL7"
 		(shape output)
-		(at 299.72 175.26 90)
+		(at 288.29 175.26 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2755,7 +2905,7 @@
 		)
 		(uuid "633f7f1d-9ae3-4002-9258-4a93b5b63ea1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 299.6406 168.0088 90)
+			(at 288.2106 168.0088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +2983,7 @@
 	)
 	(global_label "COL6"
 		(shape output)
-		(at 262.89 175.26 90)
+		(at 255.27 175.26 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2843,7 +2993,7 @@
 		)
 		(uuid "837c2d90-8ae2-4a47-8c40-60e7a87faa5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.8106 168.0088 90)
+			(at 255.1906 168.0088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,7 +3071,7 @@
 	)
 	(global_label "COL1"
 		(shape output)
-		(at 95.25 175.26 90)
+		(at 93.98 175.26 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2931,7 +3081,7 @@
 		)
 		(uuid "9ed396a2-b918-454e-8da0-e072039363cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.1706 168.0088 90)
+			(at 93.9006 168.0088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2987,7 +3137,7 @@
 	)
 	(global_label "COL1"
 		(shape output)
-		(at 95.25 205.74 90)
+		(at 93.98 205.74 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2997,7 +3147,7 @@
 		)
 		(uuid "acf63c6b-f1f2-4e34-b2ab-2d20960f4b70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.1706 198.4888 90)
+			(at 93.9006 198.4888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,7 +3181,7 @@
 	)
 	(global_label "COL5"
 		(shape output)
-		(at 223.52 143.51 90)
+		(at 222.25 143.51 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3041,7 +3191,7 @@
 		)
 		(uuid "c81f0c30-b951-40d1-be2c-5a1031bbdb09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.4406 136.2588 90)
+			(at 222.1706 136.2588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,7 +3225,7 @@
 	)
 	(global_label "COL6"
 		(shape output)
-		(at 262.89 207.01 90)
+		(at 255.27 207.01 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3085,7 +3235,7 @@
 		)
 		(uuid "d84e5891-a6ba-4928-85df-976894c082b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.8106 199.7588 90)
+			(at 255.1906 199.7588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,7 +3291,7 @@
 	)
 	(global_label "COL8"
 		(shape output)
-		(at 331.47 111.76 90)
+		(at 327.66 111.76 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3151,7 +3301,7 @@
 		)
 		(uuid "e2d0ad1e-3299-49b3-95a3-13d56dc981e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 331.3906 104.5088 90)
+			(at 327.5806 104.5088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3424,16 +3574,112 @@
 		(uuid "e4a5ea82-8c2a-4b30-8a2b-13d2d23226cd")
 	)
 	(symbol
-		(lib_id "keyboard:Gateron_ks_27")
-		(at 281.94 148.59 0)
+		(lib_id "Diode:1N4148W-JLC")
+		(at 140.97 220.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01483a7e-de93-4c90-966f-06eb1d1a8966")
+		(property "Reference" "D25"
+			(at 143.51 219.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 143.51 222.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 145.415 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 140.97 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 140.97 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 140.97 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 140.97 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 140.97 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8f0ab8a-a93f-48d7-b18f-54c9bd5119d6")
+		)
+		(pin "2"
+			(uuid "9f13066e-7d2b-4b65-a689-a3848d28d57e")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard:Gateron_ks_27")
+		(at 276.86 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
 		(uuid "0228d8f3-f7c1-4ee9-acf3-df03275c69b9")
 		(property "Reference" "SW27"
-			(at 287.02 144.78 0)
+			(at 281.94 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3441,7 +3687,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 287.02 153.67 0)
+			(at 282.448 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3695,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard:Gateron_ks_27"
-			(at 281.94 148.59 0)
+			(at 276.86 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,7 +3704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 148.59 0)
+			(at 276.86 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3467,7 +3713,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 281.94 148.59 0)
+			(at 276.86 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,12 +3726,6 @@
 		)
 		(pin "2"
 			(uuid "40cce9f3-c0f8-47f9-8922-341382d9d760")
-		)
-		(pin "3"
-			(uuid "b1b03fae-dd5f-46f0-b924-c764134d7163")
-		)
-		(pin "4"
-			(uuid "fd23dd6c-a179-4641-ae7f-48c2e3c15314")
 		)
 		(instances
 			(project ""
@@ -3503,7 +3743,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "043b8031-476d-4ad2-9eae-053de1d01a10")
 		(property "Reference" "SW15"
 			(at 177.8 144.78 0)
@@ -3514,7 +3754,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 177.8 153.67 0)
+			(at 178.308 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,12 +3794,6 @@
 		(pin "2"
 			(uuid "2be7896e-07d6-425b-b645-88e31d16d8a4")
 		)
-		(pin "3"
-			(uuid "537b96f0-8e47-489d-a248-6f197d2b9596")
-		)
-		(pin "4"
-			(uuid "f213fc89-d0f5-46ad-9e59-67d5e2c068ac")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
@@ -3570,16 +3804,304 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:Gateron_ks_27")
-		(at 205.74 148.59 0)
+		(lib_id "Diode:1N4148W-JLC")
+		(at 245.11 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "068b17f5-654c-46d6-a85c-ac87dbe1065e")
+		(property "Reference" "D5"
+			(at 247.65 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 247.65 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 249.555 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 245.11 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 245.11 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 245.11 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 245.11 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 245.11 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "227eee2d-ac44-475d-8485-6970eb69d75c")
+		)
+		(pin "2"
+			(uuid "1d4df51e-8e7a-488e-a66b-b01640d44f11")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 245.11 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e338691-1c79-4894-8d52-74cd6578a46f")
+		(property "Reference" "D12"
+			(at 247.65 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 247.65 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 249.555 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 245.11 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 245.11 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 245.11 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 245.11 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 245.11 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58aa0975-d9b3-4444-8031-3bdede649b54")
+		)
+		(pin "2"
+			(uuid "0f962203-f583-4856-8cd3-2b3320f1b037")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 205.74 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e88f026-47e7-4120-a631-db3e7d79cbaa")
+		(property "Reference" "D19"
+			(at 208.28 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 208.28 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 210.185 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 205.74 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 205.74 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 205.74 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 205.74 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 205.74 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5ae4d3b-d841-4771-b203-d9865a97c7fc")
+		)
+		(pin "2"
+			(uuid "7169ba69-920f-4aab-ad4b-1a66902c547d")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard:Gateron_ks_27")
+		(at 204.47 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
 		(uuid "10ec7bd3-2ca9-461d-b76c-06ab9882edbf")
 		(property "Reference" "SW19"
-			(at 210.82 144.78 0)
+			(at 209.55 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +4109,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 210.82 153.67 0)
+			(at 210.058 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,7 +4117,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard:Gateron_ks_27"
-			(at 205.74 148.59 0)
+			(at 204.47 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3604,7 +4126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 148.59 0)
+			(at 204.47 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,7 +4135,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 148.59 0)
+			(at 204.47 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3626,12 +4148,6 @@
 		)
 		(pin "2"
 			(uuid "5f99e886-42f0-4213-90f4-0ebd29580a8f")
-		)
-		(pin "3"
-			(uuid "dfa83d79-49d7-44d3-be13-285778c3100f")
-		)
-		(pin "4"
-			(uuid "65fd3251-a7d8-49e4-b859-fd1afc545c59")
 		)
 		(instances
 			(project ""
@@ -3708,16 +4224,208 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:Gateron_ks_27")
-		(at 139.7 212.09 0)
+		(lib_id "Diode:1N4148W-JLC")
+		(at 172.72 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ac89fde-0f1f-4e57-9ad9-2c51fc809787")
+		(property "Reference" "D3"
+			(at 175.26 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 175.26 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 177.165 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 172.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 172.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 172.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 172.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 172.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3998584-565c-45af-9d5e-fd3cb2078c04")
+		)
+		(pin "2"
+			(uuid "f51baec2-24e2-46d9-8f06-917792a10e25")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 76.2 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "225c99b5-600e-4321-bafc-a3f94c1c5a46")
+		(property "Reference" "D23"
+			(at 78.74 219.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 78.74 222.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 80.645 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 76.2 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 76.2 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 76.2 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 76.2 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 76.2 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a5eb835-e5a2-4eb2-80b5-94fc2a2f0a85")
+		)
+		(pin "2"
+			(uuid "29970198-8206-49f9-8adb-32c1bd4f5f0c")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard:Gateron_ks_27")
+		(at 140.97 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
 		(uuid "22cf0ffa-9a4f-4b23-9faf-93b97fa9335a")
 		(property "Reference" "SW13"
-			(at 144.78 208.28 0)
+			(at 146.05 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3725,7 +4433,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 144.78 217.17 0)
+			(at 146.558 205.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +4441,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard:Gateron_ks_27"
-			(at 139.7 212.09 0)
+			(at 140.97 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +4450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 212.09 0)
+			(at 140.97 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +4459,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 212.09 0)
+			(at 140.97 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3765,16 +4473,296 @@
 		(pin "2"
 			(uuid "cab7e86d-c122-42f6-866e-261368ac1c58")
 		)
-		(pin "3"
-			(uuid "0d44f8dd-8249-45a2-bbd0-55f35d13c662")
-		)
-		(pin "4"
-			(uuid "a71d7fab-5124-4c0e-863b-4492a687546e")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
 					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 107.95 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "234c43c0-d152-48c4-8491-134a1ee6a492")
+		(property "Reference" "D16"
+			(at 110.49 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 110.49 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 112.395 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 107.95 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 107.95 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 107.95 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 107.95 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2d02e8f-938b-4514-a1b7-bb4f82065ee2")
+		)
+		(pin "2"
+			(uuid "7752fd79-9c2a-4bc8-8a80-2e910e76e296")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 302.26 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23688b99-8d80-48af-8ae5-d3bf3daefb6f")
+		(property "Reference" "D22"
+			(at 304.8 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 304.8 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 306.705 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 302.26 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 302.26 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 302.26 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 302.26 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 302.26 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9ceafbe-de31-4968-b643-93a32d6b022c")
+		)
+		(pin "2"
+			(uuid "15370183-73c1-4a77-8161-a7f6c811efe7")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 204.47 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d628522-fc5e-458b-a791-86600d5cb322")
+		(property "Reference" "D4"
+			(at 207.01 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 207.01 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 208.915 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 204.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 204.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 204.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 204.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 204.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e202ba0a-bbd2-4c47-9f0c-9107dccd2559")
+		)
+		(pin "2"
+			(uuid "8bd10771-b17a-4f7f-9f7f-cd48fc5ba9e1")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3787,7 +4775,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "342a6873-310b-4b60-9202-61cea9f9c5b6")
 		(property "Reference" "SW22"
 			(at 250.19 113.03 0)
@@ -3798,7 +4786,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 250.19 121.92 0)
+			(at 250.698 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,12 +4826,6 @@
 		(pin "2"
 			(uuid "a56f02ec-82c6-495b-a746-480124e01410")
 		)
-		(pin "3"
-			(uuid "c7acc81c-3873-4e92-a966-615b2831fa23")
-		)
-		(pin "4"
-			(uuid "7f8a96d3-5a18-4fa3-b2ca-c36528e5b68a")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
@@ -3854,16 +4836,112 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:Gateron_ks_27")
-		(at 77.47 210.82 0)
+		(lib_id "Diode:1N4148W-JLC")
+		(at 270.51 189.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35d263b8-5b48-4c4a-905d-2912659dae23")
+		(property "Reference" "D21"
+			(at 273.05 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 273.05 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 274.955 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 270.51 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 270.51 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 270.51 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 270.51 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 270.51 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1fa00fa4-e4bf-4e2b-b1a5-d558c883cc58")
+		)
+		(pin "2"
+			(uuid "0f0ff0d4-a82a-4269-8be3-4ad795812009")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard:Gateron_ks_27")
+		(at 76.2 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
 		(uuid "3896fd04-1349-4cff-ad3a-76470e5d72b7")
 		(property "Reference" "SW5"
-			(at 82.55 207.01 0)
+			(at 81.28 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +4949,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 82.55 215.9 0)
+			(at 81.788 204.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +4957,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard:Gateron_ks_27"
-			(at 77.47 210.82 0)
+			(at 76.2 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +4966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 210.82 0)
+			(at 76.2 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3897,7 +4975,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 210.82 0)
+			(at 76.2 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,12 +4989,6 @@
 		(pin "2"
 			(uuid "6532dcb8-7547-48d5-bf72-1f07e7d1fce6")
 		)
-		(pin "3"
-			(uuid "f200cca2-0148-4900-817b-c5c37ddf5f1b")
-		)
-		(pin "4"
-			(uuid "31142b27-7c0f-403e-b4b3-6682d0e266b9")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
@@ -3927,16 +4999,112 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:Gateron_ks_27")
-		(at 313.69 116.84 0)
+		(lib_id "Diode:1N4148W-JLC")
+		(at 205.74 220.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b3c9725-e2d6-4059-a5b4-6414bfad3037")
+		(property "Reference" "D27"
+			(at 208.28 219.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 208.28 222.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 210.185 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 205.74 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 205.74 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 205.74 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 205.74 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 205.74 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfaf0784-33ca-42bf-be62-fdcaa16d041b")
+		)
+		(pin "2"
+			(uuid "f87e0e1b-b609-4be1-b8c0-ec6f0774426e")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard:Gateron_ks_27")
+		(at 309.88 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
 		(uuid "3c250346-e57f-46d0-b7ce-f5a4aa1641f5")
 		(property "Reference" "SW30"
-			(at 318.77 113.03 0)
+			(at 314.96 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,7 +5112,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 318.77 121.92 0)
+			(at 315.468 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +5120,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard:Gateron_ks_27"
-			(at 313.69 116.84 0)
+			(at 309.88 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +5129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 116.84 0)
+			(at 309.88 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +5138,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 313.69 116.84 0)
+			(at 309.88 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3984,12 +5152,6 @@
 		(pin "2"
 			(uuid "88011f19-1101-46af-b8b3-8952ae024069")
 		)
-		(pin "3"
-			(uuid "95686aa2-51ad-47e3-bfcb-bd228a2f7e84")
-		)
-		(pin "4"
-			(uuid "f21ecb45-0c4d-47bb-9db4-e0532c894586")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
@@ -4001,15 +5163,15 @@
 	)
 	(symbol
 		(lib_id "keyboard:Gateron_ks_27")
-		(at 245.11 180.34 0)
+		(at 237.49 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4201851f-27f4-4778-8573-6af2714a7a70")
 		(property "Reference" "SW24"
-			(at 250.19 176.53 0)
+			(at 242.57 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4017,7 +5179,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 250.19 185.42 0)
+			(at 243.078 174.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4025,7 +5187,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard:Gateron_ks_27"
-			(at 245.11 180.34 0)
+			(at 237.49 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,7 +5196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 180.34 0)
+			(at 237.49 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,7 +5205,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 180.34 0)
+			(at 237.49 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4057,12 +5219,6 @@
 		(pin "2"
 			(uuid "0be36675-0196-4d48-aed5-6750a79e0dcf")
 		)
-		(pin "3"
-			(uuid "1ba011fe-f19e-447c-aab4-6659f22f0eb4")
-		)
-		(pin "4"
-			(uuid "f365647f-4c0c-4f7a-9896-0fc22a015f8a")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
@@ -4074,15 +5230,15 @@
 	)
 	(symbol
 		(lib_id "keyboard:Gateron_ks_27")
-		(at 313.69 212.09 0)
+		(at 302.26 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "434c9733-b213-4ee0-ab6b-4653f063d2b6")
 		(property "Reference" "SW33"
-			(at 318.77 208.28 0)
+			(at 307.34 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,7 +5246,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 318.77 217.17 0)
+			(at 307.848 205.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +5254,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard:Gateron_ks_27"
-			(at 313.69 212.09 0)
+			(at 302.26 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,7 +5263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 212.09 0)
+			(at 302.26 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +5272,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 313.69 212.09 0)
+			(at 302.26 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4130,12 +5286,6 @@
 		(pin "2"
 			(uuid "f94f4b2d-3ec6-48f3-ab32-51ba0715585a")
 		)
-		(pin "3"
-			(uuid "c8d4b3a2-2d05-48c8-87f2-d4d23f0efbc2")
-		)
-		(pin "4"
-			(uuid "c82b790c-1c00-448e-8419-fe8e2aa2a913")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
@@ -4146,16 +5296,112 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:Gateron_ks_27")
-		(at 281.94 180.34 0)
+		(lib_id "Diode:1N4148W-JLC")
+		(at 139.7 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49da1d09-dc0a-4efc-ad5d-bd0ddf17c83e")
+		(property "Reference" "D9"
+			(at 142.24 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 142.24 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 144.145 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 139.7 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 139.7 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 139.7 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 139.7 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 139.7 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf08f13e-a600-4150-9bf6-815260f6e8d8")
+		)
+		(pin "2"
+			(uuid "9e21da62-0df5-4e33-aa4d-763346c16a9e")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard:Gateron_ks_27")
+		(at 270.51 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
 		(uuid "5b5a9813-e636-49c3-a526-6efa4b1ca0bf")
 		(property "Reference" "SW28"
-			(at 287.02 176.53 0)
+			(at 275.59 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,7 +5409,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 287.02 185.42 0)
+			(at 276.098 174.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +5417,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard:Gateron_ks_27"
-			(at 281.94 180.34 0)
+			(at 270.51 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,7 +5426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 180.34 0)
+			(at 270.51 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,7 +5435,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 281.94 180.34 0)
+			(at 270.51 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,12 +5449,6 @@
 		(pin "2"
 			(uuid "df94f76c-603b-457e-9b56-41a30d439765")
 		)
-		(pin "3"
-			(uuid "c2e55f3e-1dc6-4869-b83d-45e2a48bc5c0")
-		)
-		(pin "4"
-			(uuid "39a21e31-fd8e-4b12-a832-af33ce095c45")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
@@ -4219,16 +5459,208 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:Gateron_ks_27")
-		(at 77.47 180.34 0)
+		(lib_id "Diode:1N4148W-JLC")
+		(at 309.88 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bbe5afd-4b04-48da-b047-c5ea29ac44b4")
+		(property "Reference" "D14"
+			(at 312.42 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 312.42 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 314.325 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 309.88 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 309.88 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 309.88 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 309.88 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 309.88 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d406d760-d1f8-43ee-945d-f0320ceb0368")
+		)
+		(pin "2"
+			(uuid "de93b3f0-2eb2-4673-aa45-3383639ad5e0")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 140.97 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61c5a849-f24e-4bc0-b790-81ad40ebd931")
+		(property "Reference" "D17"
+			(at 143.51 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 143.51 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 145.415 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c9519d7-c615-494f-9d2d-2f2dd4a48510")
+		)
+		(pin "2"
+			(uuid "e0883edc-7370-457f-bdbb-dc6c2c28717c")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard:Gateron_ks_27")
+		(at 76.2 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
 		(uuid "623b02d9-0f09-47e7-8735-f84911b6cd62")
 		(property "Reference" "SW4"
-			(at 82.55 176.53 0)
+			(at 81.28 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +5668,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 82.55 185.42 0)
+			(at 81.788 174.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,7 +5676,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard:Gateron_ks_27"
-			(at 77.47 180.34 0)
+			(at 76.2 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +5685,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 180.34 0)
+			(at 76.2 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +5694,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 180.34 0)
+			(at 76.2 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,12 +5707,6 @@
 		)
 		(pin "2"
 			(uuid "db5a7a01-123c-43a8-898f-fd82caca8718")
-		)
-		(pin "3"
-			(uuid "9a27317d-f577-44be-9ca1-1b326b01ddae")
-		)
-		(pin "4"
-			(uuid "a0279b8f-8fd2-436d-96c6-966a982b52bb")
 		)
 		(instances
 			(project ""
@@ -4298,7 +5724,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "660cfbd8-c920-41f3-b80c-7bd72ed4ad19")
 		(property "Reference" "SW23"
 			(at 250.19 144.78 0)
@@ -4309,7 +5735,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 250.19 153.67 0)
+			(at 250.698 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,12 +5775,6 @@
 		(pin "2"
 			(uuid "e1205087-27e0-405e-89af-4ea99088f2a1")
 		)
-		(pin "3"
-			(uuid "b386dab7-e78f-4201-9df0-1ebac9d9b93a")
-		)
-		(pin "4"
-			(uuid "40fce37f-b487-4aeb-9799-078f913973e5")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
@@ -4366,15 +5786,15 @@
 	)
 	(symbol
 		(lib_id "keyboard:Gateron_ks_27")
-		(at 281.94 116.84 0)
+		(at 276.86 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "66820251-5a67-4aae-bdf2-629022279fee")
 		(property "Reference" "SW26"
-			(at 287.02 113.03 0)
+			(at 281.94 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4382,7 +5802,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 287.02 121.92 0)
+			(at 282.448 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +5810,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard:Gateron_ks_27"
-			(at 281.94 116.84 0)
+			(at 276.86 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,7 +5819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 116.84 0)
+			(at 276.86 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4408,7 +5828,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 281.94 116.84 0)
+			(at 276.86 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,12 +5841,6 @@
 		)
 		(pin "2"
 			(uuid "5790aef0-7c9b-40bc-8ed1-2ffcf30d1ad5")
-		)
-		(pin "3"
-			(uuid "0db47c1f-1da2-420b-9320-4cffccd8910d")
-		)
-		(pin "4"
-			(uuid "ff283e59-a985-4d70-b01d-ee2eaf26cb6f")
 		)
 		(instances
 			(project ""
@@ -4444,7 +5858,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "69e48c34-a2bd-49ef-a70b-68ca40a1bb8c")
 		(property "Reference" "SW17"
 			(at 177.8 208.28 0)
@@ -4455,7 +5869,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 177.8 217.17 0)
+			(at 178.308 205.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,12 +5909,6 @@
 		(pin "2"
 			(uuid "dea1f8a7-0adf-4ab8-90cb-87de7b9b9aa4")
 		)
-		(pin "3"
-			(uuid "6b2e4dfc-d185-4747-b2b8-e0c9c618ef4a")
-		)
-		(pin "4"
-			(uuid "447db563-46d4-45ad-8fed-58ab6fdf275e")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
@@ -4512,15 +5920,15 @@
 	)
 	(symbol
 		(lib_id "keyboard:Gateron_ks_27")
-		(at 205.74 116.84 0)
+		(at 204.47 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6bfaed5d-9b14-4254-9855-4c6b111cabe7")
 		(property "Reference" "SW18"
-			(at 210.82 113.03 0)
+			(at 209.55 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4528,7 +5936,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 210.82 121.92 0)
+			(at 210.058 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +5944,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard:Gateron_ks_27"
-			(at 205.74 116.84 0)
+			(at 204.47 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4545,7 +5953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 116.84 0)
+			(at 204.47 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +5962,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 116.84 0)
+			(at 204.47 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4568,16 +5976,392 @@
 		(pin "2"
 			(uuid "7d589f76-745a-497a-8ff6-4dce803bfdf7")
 		)
-		(pin "3"
-			(uuid "e3126d94-4777-41d7-9604-fa80a0f62f16")
-		)
-		(pin "4"
-			(uuid "34d33bb6-5d25-4754-827f-beced4f9c170")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
 					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 172.72 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c782a4d-9fdf-4add-9232-4ec2bba63a78")
+		(property "Reference" "D18"
+			(at 175.26 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 175.26 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 177.165 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 172.72 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 172.72 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 172.72 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 172.72 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 172.72 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d946f2a-04f4-42db-ad14-76b03039d8b9")
+		)
+		(pin "2"
+			(uuid "e2698973-743d-4b99-bc71-5ac6872ee0fb")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 309.88 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "701085f1-3925-4671-b102-73f1b1228cd2")
+		(property "Reference" "D7"
+			(at 312.42 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 312.42 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 314.325 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 309.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 309.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 309.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 309.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 309.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ee244ea-bb60-4029-9e06-bc84f6723e15")
+		)
+		(pin "2"
+			(uuid "9f926a79-fc3f-4681-994e-ed9d113ffaf3")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 237.49 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75fe655b-c5a4-45e3-bd8c-4dbae84912ad")
+		(property "Reference" "D28"
+			(at 240.03 219.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 240.03 222.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 241.935 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 237.49 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 237.49 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 237.49 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 237.49 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 237.49 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fc8b9fc-89d8-4ba6-a38f-31814a2221dc")
+		)
+		(pin "2"
+			(uuid "ef975588-3338-4bd4-835f-0bc1b9fec75e")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 204.47 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77846084-1232-4e56-aaba-4a31c9e0fe56")
+		(property "Reference" "D11"
+			(at 207.01 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 207.01 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 208.915 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 204.47 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 204.47 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 204.47 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 204.47 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 204.47 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26902609-0d91-45eb-972f-7de481c4e5e1")
+		)
+		(pin "2"
+			(uuid "580f20ee-998b-49a1-9510-fa83334641bf")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -4627,6 +6411,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 193.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C72115"
 			(at 193.04 74.93 0)
 			(effects
 				(font
@@ -4699,7 +6492,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "796fbe87-2214-402a-8b0d-a34445f0c9ab")
 		(property "Reference" "SW7"
 			(at 113.03 144.78 0)
@@ -4710,7 +6503,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 113.03 153.67 0)
+			(at 113.538 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4750,12 +6543,6 @@
 		(pin "2"
 			(uuid "b75f5655-d179-464a-a26e-be96f0bcadd6")
 		)
-		(pin "3"
-			(uuid "dc316297-fce7-4b64-843d-c1604180483c")
-		)
-		(pin "4"
-			(uuid "39f2cc5b-348e-4098-9897-86eaa44300b0")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
@@ -4772,7 +6559,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7c687dc2-0660-4a06-886c-7031610fd688")
 		(property "Reference" "SW11"
 			(at 144.78 144.78 0)
@@ -4783,7 +6570,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 144.78 153.67 0)
+			(at 145.288 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4823,12 +6610,6 @@
 		(pin "2"
 			(uuid "102feb39-64c5-42e3-bffa-4cdbbe356207")
 		)
-		(pin "3"
-			(uuid "13f25e1c-e9a0-42e6-8a71-4175e9fdf096")
-		)
-		(pin "4"
-			(uuid "9d0eb1cf-23d8-473c-b349-e9642c725c71")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
@@ -4839,16 +6620,207 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:Gateron_ks_27")
-		(at 281.94 212.09 0)
+		(lib_id "Diode:1N4148W-JLC")
+		(at 270.51 220.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7eca2b02-82c3-458a-ae8a-6467edfe7e40")
+		(property "Reference" "D29"
+			(at 273.05 219.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 273.05 222.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 274.955 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 270.51 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 270.51 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 270.51 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 270.51 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 270.51 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ecf4e849-e3a1-482e-a408-1b9790b6d665")
+		)
+		(pin "2"
+			(uuid "f7cc68bd-3ae3-48df-a2e9-36a45ab13810")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 302.26 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a3b3813-2b22-4f81-b2eb-736c69450a07")
+		(property "Reference" "D30"
+			(at 304.8 219.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 304.8 222.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 306.705 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 302.26 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 302.26 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 302.26 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 302.26 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 302.26 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca6404d7-ac07-4591-923f-633f4c95076b")
+		)
+		(pin "2"
+			(uuid "588da2e9-9028-44c5-a2bb-feb799ec378f")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard:Gateron_ks_27")
+		(at 270.51 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
 		(uuid "8afec70b-44d2-4be4-8f4a-2bbe776d51f1")
 		(property "Reference" "SW29"
-			(at 287.02 208.28 0)
+			(at 275.59 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4856,7 +6828,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 287.02 217.17 0)
+			(at 276.098 205.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4864,7 +6836,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard:Gateron_ks_27"
-			(at 281.94 212.09 0)
+			(at 270.51 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4873,7 +6845,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 212.09 0)
+			(at 270.51 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,7 +6854,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 281.94 212.09 0)
+			(at 270.51 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4896,12 +6868,6 @@
 		(pin "2"
 			(uuid "93be083b-451b-47bf-939d-c51e64826aaf")
 		)
-		(pin "3"
-			(uuid "1f50b904-72b9-43d4-9899-b6a1b156abe0")
-		)
-		(pin "4"
-			(uuid "a73021f1-847b-47ec-a3cd-1b97896c6e36")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
@@ -4913,15 +6879,15 @@
 	)
 	(symbol
 		(lib_id "keyboard:Gateron_ks_27")
-		(at 313.69 148.59 0)
+		(at 309.88 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "918bd043-0e5f-47c9-ad2f-4938a9df6ba3")
 		(property "Reference" "SW31"
-			(at 318.77 144.78 0)
+			(at 314.96 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4929,7 +6895,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 318.77 153.67 0)
+			(at 315.468 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,7 +6903,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard:Gateron_ks_27"
-			(at 313.69 148.59 0)
+			(at 309.88 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4946,7 +6912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 148.59 0)
+			(at 309.88 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4955,7 +6921,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 313.69 148.59 0)
+			(at 309.88 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,12 +6934,6 @@
 		)
 		(pin "2"
 			(uuid "7eacb5ca-47e9-4c11-ae3f-a1bc81246cbd")
-		)
-		(pin "3"
-			(uuid "ad140bb4-596d-4682-ba12-e8dce02ab970")
-		)
-		(pin "4"
-			(uuid "4895c1a1-869c-4ce9-8e16-6c56ffd6271a")
 		)
 		(instances
 			(project ""
@@ -4991,7 +6951,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9438463a-2e89-42a9-a0df-ff59af0fcf59")
 		(property "Reference" "SW6"
 			(at 113.03 113.03 0)
@@ -5002,7 +6962,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 113.03 121.92 0)
+			(at 113.538 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5042,12 +7002,6 @@
 		(pin "2"
 			(uuid "f5d712a5-4af5-4235-9c8b-01594f035612")
 		)
-		(pin "3"
-			(uuid "e17cbab1-d17b-4356-af62-cea8bdbe4a24")
-		)
-		(pin "4"
-			(uuid "c5e86fd8-41d3-4087-97b4-5d16719c9207")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
@@ -5059,15 +7013,15 @@
 	)
 	(symbol
 		(lib_id "keyboard:Gateron_ks_27")
-		(at 245.11 212.09 0)
+		(at 237.49 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "948dcf08-8aa6-46a9-872d-324bbdd7fd1c")
 		(property "Reference" "SW25"
-			(at 250.19 208.28 0)
+			(at 242.57 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5075,7 +7029,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 250.19 217.17 0)
+			(at 243.078 205.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5083,7 +7037,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard:Gateron_ks_27"
-			(at 245.11 212.09 0)
+			(at 237.49 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,7 +7046,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 212.09 0)
+			(at 237.49 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,7 +7055,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 212.09 0)
+			(at 237.49 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,16 +7069,297 @@
 		(pin "2"
 			(uuid "041736ce-c07b-4171-9330-7f8b57b1f99f")
 		)
-		(pin "3"
-			(uuid "06036fa5-7fed-48c5-b250-4744630cd995")
-		)
-		(pin "4"
-			(uuid "af6dc423-89e0-4f2b-9d56-87013c22542d")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
 					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 107.95 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97137f30-5e0d-412b-80c2-c505b78bb1f7")
+		(property "Reference" "D8"
+			(at 110.49 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 110.49 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 112.395 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 107.95 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 107.95 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 107.95 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 107.95 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4d35aab-ec03-497f-93e5-069223411516")
+		)
+		(pin "2"
+			(uuid "7069b5b0-e367-45d3-9dfe-c65b31f025b0")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 172.72 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "979d9c5d-df34-4836-94d1-1c6b4a0a5322")
+		(property "Reference" "D26"
+			(at 175.26 219.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 175.26 222.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 177.165 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 172.72 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 172.72 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 172.72 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 172.72 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 172.72 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91dd718f-121a-4a80-8d57-5359a0d62bd8")
+		)
+		(pin "2"
+			(uuid "460601b2-050b-47dd-ba12-06322e563457")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 107.95 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9eb4ea1b-c0c6-448d-a974-1107864c09fc")
+		(property "Reference" "D1"
+			(at 110.49 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 110.49 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 112.395 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 107.95 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 107.95 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 107.95 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 107.95 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "023bf809-b3a3-4422-8d6a-c8513705a556")
+		)
+		(pin "2"
+			(uuid "9bea85f8-aaef-4d70-9fe8-275ad9ce187a")
+		)
+		(instances
+			(project ""
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5137,7 +7372,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "aa4857ef-f6e3-43b9-94f4-cf1d6e688054")
 		(property "Reference" "SW20"
 			(at 210.82 176.53 0)
@@ -5148,7 +7383,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 210.82 185.42 0)
+			(at 211.328 174.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5187,12 +7422,6 @@
 		)
 		(pin "2"
 			(uuid "8809c2d7-830e-44a4-9661-27c27137ce7f")
-		)
-		(pin "3"
-			(uuid "27368d4f-b6bf-42db-acf0-f09c09f18e54")
-		)
-		(pin "4"
-			(uuid "aaa26343-5a74-491c-af12-55b7d636ece9")
 		)
 		(instances
 			(project ""
@@ -5269,13 +7498,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 237.49 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afa68942-aaa7-43bf-8bd9-a3f813094b22")
+		(property "Reference" "D20"
+			(at 240.03 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 240.03 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 241.935 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 237.49 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 237.49 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 237.49 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 237.49 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 237.49 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74374938-3ac4-4ff5-b85e-f5f10eaf16bb")
+		)
+		(pin "2"
+			(uuid "19255a77-dce5-47a0-a024-50be931980b0")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "keyboard:Gateron_ks_27")
 		(at 107.95 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b2c67da6-1399-4834-98af-2481baf81666")
 		(property "Reference" "SW9"
 			(at 113.03 208.28 0)
@@ -5286,7 +7611,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 113.03 217.17 0)
+			(at 113.538 205.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5326,16 +7651,299 @@
 		(pin "2"
 			(uuid "035a186c-3217-4fc3-ae2f-1913ef52dc98")
 		)
-		(pin "3"
-			(uuid "057f32e6-bd73-42a3-a414-9bf479d670f1")
-		)
-		(pin "4"
-			(uuid "50efe7c3-63d4-4c5f-b122-7aec0691b84a")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
 					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 139.7 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b896a705-e6c8-46b0-9116-772b0fea4b85")
+		(property "Reference" "D2"
+			(at 142.24 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 142.24 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 144.145 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 139.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 139.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 139.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 139.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 139.7 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee97c77f-ecce-4963-9af9-4936ea5ea37b")
+		)
+		(pin "2"
+			(uuid "08855924-6bcb-4755-aea8-90fba62e4b3d")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 276.86 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd2d163f-48c7-4e7b-86ad-a7b495e4a2a5")
+		(property "Reference" "D13"
+			(at 279.4 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 279.4 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 281.305 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 276.86 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 276.86 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 276.86 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 276.86 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 276.86 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98a3e421-76ec-4776-b7f3-de7da66e09ca")
+		)
+		(pin "2"
+			(uuid "6554f352-b641-432a-b20b-4fc6b7a3f722")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 276.86 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd4aad75-4666-4337-ba23-35a7416e0f87")
+		(property "Reference" "D6"
+			(at 279.4 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 279.4 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 281.305 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 276.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 276.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 276.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 276.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 276.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97c977b7-b4ef-408f-bc92-2478dea42f82")
+		)
+		(pin "2"
+			(uuid "c0c262e7-0921-4ba6-89d8-f2cb225ebf5e")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -5348,7 +7956,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ce960d48-ee76-47b6-ae66-953b00b350a2")
 		(property "Reference" "SW16"
 			(at 177.8 176.53 0)
@@ -5359,7 +7967,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 177.8 185.42 0)
+			(at 178.308 174.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5399,12 +8007,6 @@
 		(pin "2"
 			(uuid "fa4ccf1c-ab96-43fe-8b5c-b92dfa0edd90")
 		)
-		(pin "3"
-			(uuid "ec6a96d9-5022-4b51-8c90-8892cc16f90e")
-		)
-		(pin "4"
-			(uuid "a7d1169e-fb55-4625-af79-ee6fa9c9853e")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
@@ -5421,7 +8023,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dc2e2881-c7a9-4030-9c1c-5f70418fde26")
 		(property "Reference" "SW8"
 			(at 113.03 176.53 0)
@@ -5432,7 +8034,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 113.03 185.42 0)
+			(at 113.538 174.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5472,12 +8074,6 @@
 		(pin "2"
 			(uuid "f53d88c3-5346-4602-903b-f19c7613d7e0")
 		)
-		(pin "3"
-			(uuid "42a87384-695f-4b16-bfde-90f2bf78d0d8")
-		)
-		(pin "4"
-			(uuid "32ebfe81-abc9-4e28-91aa-73ab79dac5a8")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
@@ -5494,7 +8090,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e7c26e72-7179-4254-aaca-0c4b356a3705")
 		(property "Reference" "SW10"
 			(at 144.78 113.03 0)
@@ -5505,7 +8101,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 144.78 121.92 0)
+			(at 145.288 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5545,16 +8141,106 @@
 		(pin "2"
 			(uuid "67049069-4d6e-4990-b497-beb858ce1cfa")
 		)
-		(pin "3"
-			(uuid "c393230d-825a-41f2-afe9-4793975ee7ea")
-		)
-		(pin "4"
-			(uuid "35635e5a-0ec9-40a3-a7fd-d9e46c547978")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
 					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 172.72 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e974723e-4615-47d0-8ea1-c5fb3f776110")
+		(property "Reference" "D10"
+			(at 175.26 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 175.26 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 177.165 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 172.72 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 172.72 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 172.72 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 172.72 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 172.72 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e14a03f5-01bc-4c8b-b477-89265052e84d")
+		)
+		(pin "2"
+			(uuid "1e443dd2-d491-4907-a11c-6170086d0960")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -5567,7 +8253,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e9a11167-6aa0-4b39-89c6-a6f3f882f9c6")
 		(property "Reference" "SW21"
 			(at 210.82 208.28 0)
@@ -5578,7 +8264,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 210.82 217.17 0)
+			(at 211.328 205.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5618,12 +8304,6 @@
 		(pin "2"
 			(uuid "eda46f07-8ea9-4ab5-b594-553ce67b7699")
 		)
-		(pin "3"
-			(uuid "bd561adf-acd1-480b-bc75-3470e352b31c")
-		)
-		(pin "4"
-			(uuid "4f88470c-de6c-4bdb-bf2a-4d7b6d1180b7")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
@@ -5635,15 +8315,15 @@
 	)
 	(symbol
 		(lib_id "keyboard:Gateron_ks_27")
-		(at 139.7 180.34 0)
+		(at 140.97 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f7041a65-0f85-40d0-86c3-08154792d3bc")
 		(property "Reference" "SW12"
-			(at 144.78 176.53 0)
+			(at 146.05 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +8331,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 144.78 185.42 0)
+			(at 146.558 174.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5659,7 +8339,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard:Gateron_ks_27"
-			(at 139.7 180.34 0)
+			(at 140.97 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5668,7 +8348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 180.34 0)
+			(at 140.97 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,7 +8357,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 180.34 0)
+			(at 140.97 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5691,16 +8371,202 @@
 		(pin "2"
 			(uuid "41120d2f-4e48-4002-b484-bb5e17e36f31")
 		)
-		(pin "3"
-			(uuid "f8e31cbb-c7e4-41a4-84a4-22841443f379")
-		)
-		(pin "4"
-			(uuid "7fa7e132-925b-4117-a499-ff34010df5e9")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
 					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 76.2 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9f130a8-7134-48fc-9194-9ee3f6802551")
+		(property "Reference" "D15"
+			(at 78.74 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 78.74 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 80.645 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 76.2 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 76.2 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 76.2 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 76.2 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 76.2 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3dc471a5-a576-489a-986e-655a7387c808")
+		)
+		(pin "2"
+			(uuid "476f16b4-be20-444a-aef0-c572f286defc")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W-JLC")
+		(at 107.95 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbda98fd-e2ba-4db2-b32d-b8b2981f6ba0")
+		(property "Reference" "D24"
+			(at 110.49 219.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 110.49 222.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 112.395 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 107.95 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 107.95 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 107.95 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 107.95 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec024e8e-f870-439c-a404-19b1bf92434e")
+		)
+		(pin "2"
+			(uuid "4c454cb2-7104-4bbb-9bbf-62181cc42cb5")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -5713,7 +8579,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fe2b582c-31f1-48f8-a977-482e0a07a4fb")
 		(property "Reference" "SW14"
 			(at 177.8 113.03 0)
@@ -5724,7 +8590,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 177.8 121.92 0)
+			(at 178.308 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5764,12 +8630,6 @@
 		(pin "2"
 			(uuid "312803dd-1d16-4c4e-8d8a-81ad7652923d")
 		)
-		(pin "3"
-			(uuid "e996e4da-1aa3-4219-aaf3-ffacc3ef278c")
-		)
-		(pin "4"
-			(uuid "595b866a-4acd-4cc9-bccc-2b02b8e364d4")
-		)
 		(instances
 			(project ""
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/f6761ea6-a0c4-4238-8bcb-bb4bd82c6051"
@@ -5781,15 +8641,15 @@
 	)
 	(symbol
 		(lib_id "keyboard:Gateron_ks_27")
-		(at 313.69 180.34 0)
+		(at 302.26 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ff5a9839-80e6-4a69-a712-db5c8206a0bf")
 		(property "Reference" "SW32"
-			(at 318.77 176.53 0)
+			(at 307.34 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5797,7 +8657,7 @@
 			)
 		)
 		(property "Value" "Gateron_ks_27"
-			(at 318.77 185.42 0)
+			(at 307.848 174.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5805,7 +8665,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard:Gateron_ks_27"
-			(at 313.69 180.34 0)
+			(at 302.26 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +8674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 180.34 0)
+			(at 302.26 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5823,7 +8683,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 313.69 180.34 0)
+			(at 302.26 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,12 +8696,6 @@
 		)
 		(pin "2"
 			(uuid "2b7ee606-f7c7-41ba-8afd-66e284ad2b4d")
-		)
-		(pin "3"
-			(uuid "dafe78d9-875d-47d0-843e-a497e6652404")
-		)
-		(pin "4"
-			(uuid "5fc31918-00c4-4455-9ac5-a64d91c0cfc0")
 		)
 		(instances
 			(project ""

@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -3.81 0)
+		(at 0.254 -5.08 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c58960d9-4cac-4036-ad2e-1aef26946dae")
@@ -63,36 +63,6 @@
 			)
 		)
 	)
-	(fp_line
-		(start -2.094 8.144)
-		(end -2.094 10.144)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "7af495a8-0ad2-4851-90f7-d0256695ea46")
-	)
-	(fp_line
-		(start -2.094 8.144)
-		(end 1.916 8.144)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "72500a8b-1e7a-4fc8-a5f0-98adce4654ad")
-	)
-	(fp_line
-		(start -2.094 10.144)
-		(end 1.916 10.144)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b1e7681b-bee6-46db-95d4-65af8f5ee369")
-	)
 	(fp_rect
 		(start 7.5 -7.5)
 		(end -7.5 7.5)
@@ -103,156 +73,6 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "d39d813e-3e64-490c-ba5c-a64bb5ad6bd0")
-	)
-	(fp_line
-		(start -2.084 7.994)
-		(end -2.084 10.294)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "e48b8a9f-0a4a-414a-9a49-afb701ae32db")
-	)
-	(fp_line
-		(start -2.084 7.994)
-		(end 2.616 7.994)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "426fd35c-b48b-4131-bb42-d300d99e8cd5")
-	)
-	(fp_line
-		(start 2.616 7.994)
-		(end 2.616 10.294)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "cc96a26e-7bfa-4e29-b650-da90686549b9")
-	)
-	(fp_line
-		(start 2.616 10.294)
-		(end -2.084 10.294)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "0c24fc0c-a200-44ab-b890-e9b05e957b0a")
-	)
-	(fp_line
-		(start -1.134 8.244)
-		(end 1.666 8.244)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "797f56d2-b1ff-41a9-a637-d457d0c7c3f2")
-	)
-	(fp_line
-		(start -1.134 10.044)
-		(end -1.134 8.244)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "9365d931-8803-4d44-8bc6-118602d9bdba")
-	)
-	(fp_line
-		(start -0.484 9.144)
-		(end -0.084 9.144)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "0cdb911b-8420-4ac6-b1c4-ef3b8bd5eb9c")
-	)
-	(fp_line
-		(start -0.084 9.144)
-		(end -0.084 8.594)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "7f20e148-ce44-444d-9a22-b11c2489c184")
-	)
-	(fp_line
-		(start -0.084 9.144)
-		(end -0.084 9.694)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "ddd215d1-3483-45df-b32d-d3dba3577e5a")
-	)
-	(fp_line
-		(start -0.084 9.144)
-		(end 0.516 8.744)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "8f3c1a6a-2d02-427d-aaa2-93df909ac8a9")
-	)
-	(fp_line
-		(start 0.516 8.744)
-		(end 0.516 9.544)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "3be24213-7056-472d-a6e4-565d3478aeac")
-	)
-	(fp_line
-		(start 0.516 9.144)
-		(end 1.016 9.144)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "a95928e7-88f5-469e-8acf-0a4474aee1e5")
-	)
-	(fp_line
-		(start 0.516 9.544)
-		(end -0.084 9.144)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "46b75a71-7148-4dfe-940a-f73c2ed408bd")
-	)
-	(fp_line
-		(start 1.666 8.244)
-		(end 1.666 10.044)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "64c71f92-d6d1-4420-bbe4-85a8e96e4584")
-	)
-	(fp_line
-		(start 1.666 10.044)
-		(end -1.134 10.044)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "c55f889e-7fdf-4428-90c1-09254ef8c20d")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -5.08 0)
@@ -288,19 +108,5 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "abe07c9a-17c3-43b5-b7a6-ae867ac27ea7")
-	)
-	(pad "3" smd roundrect
-		(at -1.384 9.144)
-		(size 0.9 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
-		(uuid "327dadbc-e838-49d7-8924-81ebad9e20d8")
-	)
-	(pad "4" smd roundrect
-		(at 1.916 9.144)
-		(size 0.9 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
-		(uuid "8959a647-1a78-4f9b-b98a-d47477c260af")
 	)
 )
