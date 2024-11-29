@@ -500,7 +500,7 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
-        "pattern": "*V"
+        "pattern": "*V*"
       },
       {
         "netclass": "Power",

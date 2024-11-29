@@ -374,6 +374,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Diode:1N4148W-JLC"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -834,6 +970,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e477d0a-4fac-408c-8602-8784c5d0b220")
+	)
+	(junction
+		(at 220.98 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fa512a9-b854-4527-b7e3-633084dd7995")
 	)
 	(junction
 		(at 119.38 157.48)
@@ -1503,6 +1645,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 83.82) (xy 226.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb7d653-13c2-4a7d-a200-372f41eb8ad7")
+	)
+	(wire
+		(pts
 			(xy 299.72 110.49) (xy 299.72 105.41)
 		)
 		(stroke
@@ -1933,7 +2085,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 83.82) (xy 226.06 83.82)
+			(xy 204.47 83.82) (xy 220.98 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5021,7 +5173,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
+		(property "Footprint" "Package_SO:SO-16_3.9x9.9mm_P1.27mm"
 			(at 204.47 68.58 0)
 			(effects
 				(font
@@ -5048,7 +5200,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C72115"
+		(property "LCSC" "C5947"
 			(at 204.47 68.58 0)
 			(effects
 				(font
@@ -5560,6 +5712,82 @@
 			(project "keyboard"
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/7618c816-4ebe-48b1-bd99-e5bb32d58cf0"
 					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 220.98 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59fd361e-0f16-4eb8-8532-77f13195affa")
+		(property "Reference" "C2"
+			(at 226.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 226.568 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 221.9452 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 220.98 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ac3535e-569c-4a17-8af6-e072e06c76e9")
+		)
+		(pin "2"
+			(uuid "490a00c7-19b1-4539-8ecf-dc6e5f725f91")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/7618c816-4ebe-48b1-bd99-e5bb32d58cf0"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6613,6 +6841,71 @@
 			(project "keyboard"
 				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/7618c816-4ebe-48b1-bd99-e5bb32d58cf0"
 					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d5f6b0a-322c-4f67-90c1-13979e1621e8")
+		(property "Reference" "#PWR04"
+			(at 220.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03996459-49ff-467f-a384-c75fd6222cae")
+		)
+		(instances
+			(project "keyboard"
+				(path "/b0ce3c94-e169-4400-82ce-8ef44a8a59a3/7618c816-4ebe-48b1-bd99-e5bb32d58cf0"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
