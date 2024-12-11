@@ -1,13 +1,9 @@
 #include "my-keyboard.h"
-#include "oled.h"
 #define LED 17
-#define LOCK_1 7
-#define LOCK_2 6
 #define CLK 21
-#define S_DATA 5
+#define S_DATA 2
 #define COLS 16
 #define ROWS 4
-#define BUTTON 65
 #define MAX_SIMULTANELUS_KEYS (12)
 // Numeric keypad
 #define KEY_LAYER_NUM 255
@@ -252,7 +248,7 @@ uint8_t layout_2[ROWS][COLS][2] = {
     },
 };
 
-const uint8_t row_to_pin[ROWS] = {8, 9, 16, 10};
+const uint8_t row_to_pin[ROWS] = {6, 7, 8, 9};
 char monitor_str[64] = {0};
 uint8_t (*current_layout)[ROWS][COLS][2];
 
@@ -278,7 +274,6 @@ void flush_registers() {
 
 void setup() {
   current_layout = &layout_0;
-  oled_init(S_DATA, CLK);
 #ifdef DEBUG
   Serial.begin(115200);
   delay(2000);
@@ -289,12 +284,9 @@ void setup() {
                  LOW); // should disable internal pull-up resistors
   }
   pinMode(LED, OUTPUT);
-  pinMode(LOCK_1, OUTPUT);
-  pinMode(LOCK_2, OUTPUT);
   pinMode(CLK, OUTPUT);
   pinMode(S_DATA, OUTPUT);
   Keyboard.begin();
-  oled_disable();
 }
 
 void loop() {
@@ -338,29 +330,18 @@ void loop() {
   if (new_key_num_pressed) {
     current_layout = &layout_1;
     digitalWrite(LED, LOW);
-    digitalWrite(LOCK_1, HIGH);
-    digitalWrite(LOCK_2, LOW);
   } else if (new_key_sym_pressed) {
     current_layout = &layout_2;
     digitalWrite(LED, LOW);
-    digitalWrite(LOCK_1, LOW);
-    digitalWrite(LOCK_2, HIGH);
   } else {
     digitalWrite(LED, HIGH);
-    digitalWrite(LOCK_1, LOW);
-    digitalWrite(LOCK_2, LOW);
     current_layout = &layout_0;
   }
   if (key_num_pressed != new_key_num_pressed) {
-    oled_displayBitmap();
-    oled_disable();
     flush_registers();
     Keyboard.releaseAll();
   }
   if (key_sym_pressed != new_key_sym_pressed) {
-    oled_clearDisplay();
-    oled_displayBitmap();
-    oled_disable();
     flush_registers();
     Keyboard.releaseAll();
   }
@@ -379,15 +360,14 @@ void loop() {
     if (modifier) {
       Keyboard.setModifiers(modifier);
     }
-    oled_addInlineSymbol(col, row, 'a');
 
 #ifdef DEBUG
     sprintf(monitor_str, "Row: %d, Col: %d, B%d\n", row, col, button);
-    Serial.write(monitor_str);
+    Serial.println(monitor_str);
 #endif
   }
 
-  Keyboard.sendReport();
+  //Keyboard.sendReport();
   key_num_pressed = new_key_num_pressed;
   key_sym_pressed = new_key_sym_pressed;
 }

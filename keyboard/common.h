@@ -1,7 +1,7 @@
 #ifndef COMMON_H
 #define COMMON_H
 
-//#define DEBUG
+#define DEBUG
 
 #ifdef DEBUG
 #define SERIAL_PRINT(...) Serial.print(__VA_ARGS__)
