@@ -249,125 +249,148 @@ uint8_t layout_2[ROWS][COLS][2] = {
 };
 
 const uint8_t row_to_pin[ROWS] = {6, 7, 8, 9};
-char monitor_str[64] = {0};
+char monitor_str[64]           = {0};
 uint8_t (*current_layout)[ROWS][COLS][2];
 
-typedef struct _keyPressed {
-  uint8_t row;
-  uint8_t col;
+typedef struct _keyPressed
+{
+    uint8_t row;
+    uint8_t col;
 } keyPressed;
 
 bool key_num_pressed = false;
 bool key_sym_pressed = false;
 
-void flush_registers() {
-  digitalWrite(S_DATA, LOW);
-  for (uint8_t b = 0; b < 15; b++) {
+void flush_registers()
+{
+    digitalWrite(S_DATA, LOW);
+    for (uint8_t b = 0; b < 15; b++)
+    {
+        digitalWrite(CLK, HIGH);
+        digitalWrite(CLK, LOW);
+    }
+    // Assert the last bit - this will be the first loaded in the shift register
+    digitalWrite(S_DATA, HIGH);
     digitalWrite(CLK, HIGH);
     digitalWrite(CLK, LOW);
-  }
-  // Assert the last bit - this will be the first loaded in the shift register
-  digitalWrite(S_DATA, HIGH);
-  digitalWrite(CLK, HIGH);
-  digitalWrite(CLK, LOW);
 }
 
-void setup() {
-  current_layout = &layout_0;
-#ifdef DEBUG
-  Serial.begin(115200);
-  delay(2000);
-#endif
-  for (int i = 0; i < ROWS; i++) {
-    pinMode(row_to_pin[i], INPUT);
-    digitalWrite(row_to_pin[i],
-                 LOW); // should disable internal pull-up resistors
-  }
-  pinMode(LED, OUTPUT);
-  pinMode(CLK, OUTPUT);
-  pinMode(S_DATA, OUTPUT);
-  Keyboard.begin();
-}
-
-void loop() {
-  uint8_t button = 0;
-  uint8_t modifier = 0;
-  keyPressed key_pressed[MAX_SIMULTANELUS_KEYS];
-  uint8_t key_pressed_counter = 0;
-  bool new_key_num_pressed = false;
-  bool new_key_sym_pressed = false;
-  delay(10);
-
-  Keyboard.releaseAll();
-  digitalWrite(S_DATA, LOW);
-  for (int col = 0; col < COLS; col++) {
-    if (col == COLS - 1) {
-      digitalWrite(S_DATA, HIGH);
-    }
-    digitalWrite(CLK, HIGH);
-    digitalWrite(CLK, LOW);
-    for (int row = 0; row < ROWS && key_pressed_counter < MAX_SIMULTANELUS_KEYS;
-         row++) {
-      button = (*current_layout)[row][col][INDEX_KEY];
-      modifier = (*current_layout)[row][col][INDEX_MOD];
-      if (digitalRead(row_to_pin[row])) {
-        if (modifier == KEY_LAYER_NUM) {
-          new_key_num_pressed = true;
-          new_key_sym_pressed = false;
-          continue;
-        } else if (modifier == KEY_LAYER_SYM) {
-          new_key_num_pressed = false;
-          new_key_sym_pressed = true;
-          continue;
-        }
-        key_pressed[key_pressed_counter].col = col;
-        key_pressed[key_pressed_counter].row = row;
-        key_pressed_counter++;
-      }
-    }
-  }
-  // Change layout and do not send this button
-  if (new_key_num_pressed) {
-    current_layout = &layout_1;
-    digitalWrite(LED, LOW);
-  } else if (new_key_sym_pressed) {
-    current_layout = &layout_2;
-    digitalWrite(LED, LOW);
-  } else {
-    digitalWrite(LED, HIGH);
+void setup()
+{
     current_layout = &layout_0;
-  }
-  if (key_num_pressed != new_key_num_pressed) {
-    flush_registers();
-    Keyboard.releaseAll();
-  }
-  if (key_sym_pressed != new_key_sym_pressed) {
-    flush_registers();
-    Keyboard.releaseAll();
-  }
+#ifdef DEBUG
+    Serial.begin(115200);
+    delay(2000);
+#endif
+    for (int i = 0; i < ROWS; i++)
+    {
+        pinMode(row_to_pin[i], INPUT);
+        digitalWrite(row_to_pin[i],
+                     LOW); // should disable internal pull-up resistors
+    }
+    pinMode(LED, OUTPUT);
+    pinMode(CLK, OUTPUT);
+    pinMode(S_DATA, OUTPUT);
+    Keyboard.begin();
+}
 
-  // Update keyboard state
-  uint8_t button_pressed_count = 0;
-  for (uint8_t p = 0; p < key_pressed_counter; p++) {
-    uint8_t row = key_pressed[p].row;
-    uint8_t col = key_pressed[p].col;
-    uint8_t button = (*current_layout)[row][col][INDEX_KEY];
-    uint8_t modifier = (*current_layout)[row][col][INDEX_MOD];
-    if (button && button_pressed_count < 6) {
-      Keyboard.pressRaw(button, button_pressed_count);
-      button_pressed_count++;
+void loop()
+{
+    uint8_t button   = 0;
+    uint8_t modifier = 0;
+    keyPressed key_pressed[MAX_SIMULTANELUS_KEYS];
+    uint8_t key_pressed_counter = 0;
+    bool new_key_num_pressed    = false;
+    bool new_key_sym_pressed    = false;
+    delay(10);
+
+    Keyboard.releaseAll();
+    digitalWrite(S_DATA, LOW);
+    for (int col = 0; col < COLS; col++)
+    {
+        if (col == COLS - 1)
+        {
+            digitalWrite(S_DATA, HIGH);
+        }
+        digitalWrite(CLK, HIGH);
+        digitalWrite(CLK, LOW);
+        for (int row = 0; row < ROWS && key_pressed_counter < MAX_SIMULTANELUS_KEYS; row++)
+        {
+            button   = (*current_layout)[row][col][INDEX_KEY];
+            modifier = (*current_layout)[row][col][INDEX_MOD];
+            if (digitalRead(row_to_pin[row]))
+            {
+                if (modifier == KEY_LAYER_NUM)
+                {
+                    new_key_num_pressed = true;
+                    new_key_sym_pressed = false;
+                    continue;
+                }
+                else if (modifier == KEY_LAYER_SYM)
+                {
+                    new_key_num_pressed = false;
+                    new_key_sym_pressed = true;
+                    continue;
+                }
+                key_pressed[key_pressed_counter].col = col;
+                key_pressed[key_pressed_counter].row = row;
+                key_pressed_counter++;
+            }
+        }
     }
-    if (modifier) {
-      Keyboard.setModifiers(modifier);
+    // Change layout and do not send this button
+    if (new_key_num_pressed)
+    {
+        current_layout = &layout_1;
+        digitalWrite(LED, LOW);
     }
+    else if (new_key_sym_pressed)
+    {
+        current_layout = &layout_2;
+        digitalWrite(LED, LOW);
+    }
+    else
+    {
+        digitalWrite(LED, HIGH);
+        current_layout = &layout_0;
+    }
+    if (key_num_pressed != new_key_num_pressed)
+    {
+        flush_registers();
+        Keyboard.releaseAll();
+    }
+    if (key_sym_pressed != new_key_sym_pressed)
+    {
+        flush_registers();
+        Keyboard.releaseAll();
+    }
+
+    // Update keyboard state
+    uint8_t button_pressed_count = 0;
+    for (uint8_t p = 0; p < key_pressed_counter; p++)
+    {
+        uint8_t row      = key_pressed[p].row;
+        uint8_t col      = key_pressed[p].col;
+        uint8_t button   = (*current_layout)[row][col][INDEX_KEY];
+        uint8_t modifier = (*current_layout)[row][col][INDEX_MOD];
+        if (button && button_pressed_count < 6)
+        {
+            Keyboard.pressRaw(button, button_pressed_count);
+            button_pressed_count++;
+        }
+        if (modifier)
+        {
+            Keyboard.setModifiers(modifier);
+        }
 
 #ifdef DEBUG
-    sprintf(monitor_str, "Row: %d, Col: %d, B%d\n", row, col, button);
-    Serial.println(monitor_str);
+        sprintf(monitor_str, "Row: %d, Col: %d, B%d\n", row, col, button);
+        Serial.println(monitor_str);
 #endif
-  }
-
-  //Keyboard.sendReport();
-  key_num_pressed = new_key_num_pressed;
-  key_sym_pressed = new_key_sym_pressed;
+    }
+#ifndef DEBUG
+    Keyboard.sendReport();
+#endif
+    key_num_pressed = new_key_num_pressed;
+    key_sym_pressed = new_key_sym_pressed;
 }
