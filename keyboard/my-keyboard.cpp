@@ -54,6 +54,10 @@ uint8_t USBPutChar(uint8_t c);
 
 size_t Keyboard_::pressRaw(uint8_t k, uint8_t index)
 {
+
+
+
+
     _keyReport.keys[index] = k;
     SERIAL_PRINT("Key: 0x");
     SERIAL_PRINT(k, HEX);
