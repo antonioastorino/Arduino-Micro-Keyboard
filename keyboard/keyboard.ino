@@ -251,6 +251,7 @@ uint8_t layout_2[ROWS][COLS][2] = {
 const uint8_t row_to_pin[ROWS] = {6, 7, 8, 9};
 char monitor_str[64]           = {0};
 uint8_t (*current_layout)[ROWS][COLS][2];
+bool shouldSendPage = false;
 
 typedef struct _keyPressed
 {
@@ -375,11 +376,13 @@ void loop()
         uint8_t modifier = (*current_layout)[row][col][INDEX_MOD];
         if (button && button_pressed_count < 6)
         {
+            shouldSendPage = true;
             Keyboard.pressRaw(button, button_pressed_count);
             button_pressed_count++;
         }
         if (modifier)
         {
+            shouldSendPage = true;
             Keyboard.setModifiers(modifier);
         }
 
@@ -389,7 +392,11 @@ void loop()
 #endif
     }
 #ifndef DEBUG
-    Keyboard.sendReport();
+    if (shouldSendPage)
+    {
+        Keyboard.sendReport();
+        shouldSendPage = false;
+    }
 #endif
     key_num_pressed = new_key_num_pressed;
     key_sym_pressed = new_key_sym_pressed;

@@ -13,4 +13,5 @@ fp-info-cache
 production/
 .DS_Store
 *.bak
+sketch.yaml
 
